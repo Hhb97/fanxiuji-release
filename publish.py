@@ -11,6 +11,9 @@ r"""《凡修纪》发布脚本：复制 APK（规范命名）→ 计算 SHA-256
 
 默认下载直链指向本 GitHub 仓库：
   https://github.com/<repo>/raw/main/releases/fanxiuji-v<版本名>-release.apk
+
+main 分支的 releases/ 只保留最新一个 APK：jsDelivr 镜像对单个仓库有 50 MB 上限，
+超过后两个镜像都返回 403。旧版本留在 git 历史里，按各自标签下载（见 README「历史版本」）。
 """
 import argparse
 import datetime
@@ -70,6 +73,12 @@ def main() -> None:
     if os.path.exists(dest):
         raise SystemExit("已存在同名 APK，拒绝覆盖：%s" % dest)
     shutil.copy2(args.apk, dest)
+    # 只保留最新 APK：旧包留在 git 历史与标签里，main 上删除，避免超过 jsDelivr 单仓库 50 MB 上限
+    removed = []
+    for f in sorted(os.listdir(RELEASES)):
+        if f.endswith(".apk") and f != name:
+            os.remove(os.path.join(RELEASES, f))
+            removed.append(f)
 
     download_url = args.download_url or "https://github.com/%s/raw/%s/releases/%s" % (args.repo, args.branch, name)
     data = {
@@ -94,8 +103,12 @@ def main() -> None:
     print("  SHA-256  :", data["apkSha256"])
     print("  直链     :", download_url)
     print("  version.json 已更新为", data["latestVersionName"], "(", data["latestVersionCode"], ")")
+    if removed:
+        print("  已从 releases/ 移除旧包（仍可按标签下载）：", "、".join(removed))
+        print("  记得把 README「历史版本」里上一版的链接改成标签地址：")
+        print("    https://github.com/%s/raw/v<旧版本>/releases/<旧文件名>" % args.repo)
     print("\n复核后执行：")
-    print("  git add version.json releases/%s" % name)
+    print("  git add -A version.json releases/ README.md")
     print('  git commit -m "release: v%s"' % data["latestVersionName"])
     print("  git tag v%s" % data["latestVersionName"])
     print("  git push origin %s --tags" % args.branch)

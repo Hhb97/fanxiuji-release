@@ -51,10 +51,12 @@
 | 版本 | versionCode | 下载 | SHA-256 |
 |---|---|---|---|
 | 1.3.0 | 5 | [fanxiuji-v1.3.0-release.apk](releases/fanxiuji-v1.3.0-release.apk) | `9e94f09307005eea36d3546d0203f307d8302fce03d90c5581ac44f74e9fadb2` |
-| 1.2.0 | 4 | [fanxiuji-v1.2.0-release.apk](releases/fanxiuji-v1.2.0-release.apk) | `df8ab1e0c0988616fa66cb2da56264dd11bafb4ebb5dc7c4aa5cfc0979f4e9ad` |
-| 1.1.1 | 3 | [fanxiuji-v1.1.1-release.apk](releases/fanxiuji-v1.1.1-release.apk) | `d706ab73bdf25d4754834623d843c1a0310e0ad0e9c69ef41af1b3cd8767312c` |
-| 1.1.0 | 2 | [fanxiuji-v1.1.0-release.apk](releases/fanxiuji-v1.1.0-release.apk) | `e1105f4dafb232aff0f70eb1c840eb0ae3be032cf42e169e192226cc4ded170d` |
-| 1.0.0 | 1 | [fanxiuji-v1.0.0-release.apk](releases/fanxiuji-v1.0.0-release.apk) | `a46590b76608cac407771a98b66de511bdce8eb2053c3a0e3f68552b16ae6f65` |
+| 1.2.0 | 4 | [fanxiuji-v1.2.0-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v1.2.0/releases/fanxiuji-v1.2.0-release.apk) | `df8ab1e0c0988616fa66cb2da56264dd11bafb4ebb5dc7c4aa5cfc0979f4e9ad` |
+| 1.1.1 | 3 | [fanxiuji-v1.1.1-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v1.1.1/releases/fanxiuji-v1.1.1-release.apk) | `d706ab73bdf25d4754834623d843c1a0310e0ad0e9c69ef41af1b3cd8767312c` |
+| 1.1.0 | 2 | [fanxiuji-v1.1.0-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v1.1.0/releases/fanxiuji-v1.1.0-release.apk) | `e1105f4dafb232aff0f70eb1c840eb0ae3be032cf42e169e192226cc4ded170d` |
+| 1.0.0 | 1 | [fanxiuji-v1.0.0-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v1.1.0/releases/fanxiuji-v1.0.0-release.apk) | `a46590b76608cac407771a98b66de511bdce8eb2053c3a0e3f68552b16ae6f65` |
+
+旧版本安装包不在 main 分支上（保持仓库小于 jsDelivr 镜像的 50 MB 上限），上表链接按各自的 git 标签下载。
 
 签名证书 SHA-256：`4448d46aa7ba64802490411186c3da9382b72510b46fbe35e6306af53295eaa9`
 （`apksigner verify --print-certs <apk>` 可核对；证书不一致的安装包不是官方发布。）
@@ -110,8 +112,8 @@ cd ..\fanxiuji-release
 python publish.py ..\mortal-cultivation-idle\app\build\outputs\apk\release\app-release.apk ^
   --version-code 6 --version-name 1.4.0 --notes "新增内容A|修复问题B"
 
-# 3. 同步修改本 README 的「下载最新版」「更新内容」「历史版本」，复核后提交推送
-git add version.json releases/ README.md
+# 3. 同步修改本 README 的「下载最新版」「更新内容」「历史版本」（上一版改成标签地址），复核后提交推送
+git add -A version.json releases/ README.md
 git commit -m "release: v1.4.0"
 git tag v1.4.0
 git push origin main --tags
@@ -125,3 +127,5 @@ git push origin main --tags
 - **必须用同一个签名证书**（源码仓库 `keystore/fanxiuji.jks`，不入库）签名，否则玩家无法覆盖安装、会丢存档。
 - 单个文件需小于 100 MB（GitHub 限制）。
 - `publish.py` 只改本地文件，不会自动提交或推送。
+- **main 分支只保留最新一个 APK**：jsDelivr 镜像对单个仓库有 50 MB 上限，超过后镜像返回 403，国内玩家检测更新会失败。
+  `publish.py` 会自动删掉旧包；旧版本留在 git 历史里，按各自标签下载。
