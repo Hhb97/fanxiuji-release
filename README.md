@@ -4,12 +4,20 @@
 
 ## 下载最新版
 
-**[⬇ 下载 v1.1.0（约 19 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v1.1.0-release.apk)**
+**[⬇ 下载 v1.1.1（约 19 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v1.1.1-release.apk)**
 
 - 系统要求：Android 8.0（API 26）及以上
 - 首次安装需在系统设置中允许「安装未知来源应用」
-- 从 v1.0.0 升级：直接覆盖安装，存档保留（同一签名证书）
+- 从旧版本升级：直接覆盖安装，存档保留（同一签名证书）
 - 游戏内「设置 › 检测更新」会自动提示新版本
+
+### v1.1.1 更新内容
+
+- 修复：切换区域或经过传送阵后，探索进度会显示成「262 / 48」等超出上限的数字
+- 修复：换区域后部分格子沿用旧地图的撤退冷却
+- 修复：最后几个格子都在撤退冷却时，地图被误判为探完而提前重置、难度上升
+- 修复：每日机缘与丹药抗药性改为本地零点重置（之前是早上 8 点）
+- 优化：养成页红点不再因「可开炉」常亮
 
 ### v1.1.0 更新内容
 
@@ -24,6 +32,7 @@
 
 | 版本 | versionCode | 下载 | SHA-256 |
 |---|---|---|---|
+| 1.1.1 | 3 | [fanxiuji-v1.1.1-release.apk](releases/fanxiuji-v1.1.1-release.apk) | `d706ab73bdf25d4754834623d843c1a0310e0ad0e9c69ef41af1b3cd8767312c` |
 | 1.1.0 | 2 | [fanxiuji-v1.1.0-release.apk](releases/fanxiuji-v1.1.0-release.apk) | `e1105f4dafb232aff0f70eb1c840eb0ae3be032cf42e169e192226cc4ded170d` |
 | 1.0.0 | 1 | [fanxiuji-v1.0.0-release.apk](releases/fanxiuji-v1.0.0-release.apk) | `a46590b76608cac407771a98b66de511bdce8eb2053c3a0e3f68552b16ae6f65` |
 
@@ -34,9 +43,9 @@
 
 ```bash
 # Windows PowerShell
-Get-FileHash .\fanxiuji-v1.1.0-release.apk -Algorithm SHA256
+Get-FileHash .\fanxiuji-v1.1.1-release.apk -Algorithm SHA256
 # macOS / Linux
-shasum -a 256 fanxiuji-v1.1.0-release.apk
+shasum -a 256 fanxiuji-v1.1.1-release.apk
 ```
 
 结果应与上表及 [version.json](version.json) 中的 `apkSha256` 一致。
