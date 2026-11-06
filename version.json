@@ -1,0 +1,19 @@
+{
+  "latestVersionCode": 2,
+  "latestVersionName": "1.1.0",
+  "minSupportedVersionCode": 1,
+  "apkFileName": "fanxiuji-v1.1.0-release.apk",
+  "apkSizeBytes": 19645953,
+  "apkSha256": "e1105f4dafb232aff0f70eb1c840eb0ae3be032cf42e169e192226cc4ded170d",
+  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v1.1.0-release.apk",
+  "releaseNotes": [
+    "新玩法「灵气凝聚」：每分钟积攒一团灵气，点击主界面场景收集修为",
+    "新增「每日机缘」：每天 4 个小目标，完成领取灵石与修为",
+    "小境界满足条件自动突破（可在设置中关闭），大境界渡劫仍需手动",
+    "探索地图可点选节点查看详情并设为下一站",
+    "底部红点提示、渡劫提醒、战力不足警告与一键转赴；返回键逐级返回",
+    "预置版本更新检测（主地址失败自动切换镜像），启动时检查，可在设置中关闭"
+  ],
+  "publishedAt": "2026-11-06T13:51:36+08:00",
+  "channel": "stable"
+}

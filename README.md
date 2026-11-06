@@ -1,0 +1,98 @@
+# 凡修纪 · 安卓版下载
+
+一介凡人，自青芜山麓起步的 **2D 全自动挂机修仙** 单机游戏。修炼、探索、战斗、掉落全自动，离线也有收益。
+
+## 下载最新版
+
+**[⬇ 下载 v1.1.0（约 19 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v1.1.0-release.apk)**
+
+- 系统要求：Android 8.0（API 26）及以上
+- 首次安装需在系统设置中允许「安装未知来源应用」
+- 从 v1.0.0 升级：直接覆盖安装，存档保留（同一签名证书）
+- 游戏内「设置 › 检测更新」会自动提示新版本
+
+### v1.1.0 更新内容
+
+- 新玩法「灵气凝聚」：每分钟积攒一团灵气，点击主界面场景收集修为
+- 新增「每日机缘」：每天 4 个小目标，完成领取灵石与修为
+- 小境界满足条件自动突破（可在设置中关闭），大境界渡劫仍需手动
+- 探索地图可点选节点查看详情并设为下一站
+- 底部红点提示、渡劫提醒、战力不足警告与一键转赴；返回键逐级返回
+- 预置版本更新检测（主地址失败自动切换镜像），启动时检查，可在设置中关闭
+
+### 历史版本
+
+| 版本 | versionCode | 下载 | SHA-256 |
+|---|---|---|---|
+| 1.1.0 | 2 | [fanxiuji-v1.1.0-release.apk](releases/fanxiuji-v1.1.0-release.apk) | `e1105f4dafb232aff0f70eb1c840eb0ae3be032cf42e169e192226cc4ded170d` |
+| 1.0.0 | 1 | [fanxiuji-v1.0.0-release.apk](releases/fanxiuji-v1.0.0-release.apk) | `a46590b76608cac407771a98b66de511bdce8eb2053c3a0e3f68552b16ae6f65` |
+
+签名证书 SHA-256：`4448d46aa7ba64802490411186c3da9382b72510b46fbe35e6306af53295eaa9`
+（`apksigner verify --print-certs <apk>` 可核对；证书不一致的安装包不是官方发布。）
+
+### 校验下载文件
+
+```bash
+# Windows PowerShell
+Get-FileHash .\fanxiuji-v1.1.0-release.apk -Algorithm SHA256
+# macOS / Linux
+shasum -a 256 fanxiuji-v1.1.0-release.apk
+```
+
+结果应与上表及 [version.json](version.json) 中的 `apkSha256` 一致。
+
+---
+
+## 检测更新是如何工作的
+
+App 只读取本仓库的 [`version.json`](version.json)，不上传任何数据、不自动下载安装：
+
+1. 启动时（可在设置中关闭）或手动点击「检查更新」时，按顺序请求：
+   - `https://raw.githubusercontent.com/Hhb97/fanxiuji-release/main/version.json`
+   - `https://cdn.jsdelivr.net/gh/Hhb97/fanxiuji-release@main/version.json`（镜像，国内网络更稳）
+   - `https://fastly.jsdelivr.net/gh/Hhb97/fanxiuji-release@main/version.json`（镜像）
+2. 用 `latestVersionCode` 与本机 versionCode 比较：
+   - 更高 → 提示「发现新版本」；本机低于 `minSupportedVersionCode` → 提示「重要更新」
+   - `channel` 与 App 渠道（`stable`）不一致时不提示
+3. 点击「打开下载页」交给系统浏览器下载 `downloadUrl`，由用户手动安装。
+
+### version.json 字段
+
+| 字段 | 说明 |
+|---|---|
+| `latestVersionCode` | 最新版本号，必须严格递增，且等于 APK 的 versionCode |
+| `latestVersionName` | 展示用版本名 |
+| `minSupportedVersionCode` | 低于此版本号的客户端收到「重要更新」提示 |
+| `apkFileName` | `releases/` 下的文件名 |
+| `apkSizeBytes` / `apkSha256` | 包体大小与校验和 |
+| `downloadUrl` | APK 直链（默认指向本仓库 `releases/`） |
+| `releaseNotes` | 更新日志，逐条显示在 App 设置页 |
+| `publishedAt` / `channel` | 发布时间与渠道 |
+
+## 发布新版本（维护者）
+
+```bash
+# 1. 源码仓库：先把 app/build.gradle.kts 的 versionCode +1、versionName 改新，再构建
+cd ..\mortal-cultivation-idle
+gradlew.bat testDebugUnitTest assembleRelease --offline
+
+# 2. 本仓库：复制 APK、计算校验和、更新 version.json（拒绝 versionCode 未递增或覆盖同名文件）
+cd ..\fanxiuji-release
+python publish.py ..\mortal-cultivation-idle\app\build\outputs\apk\release\app-release.apk ^
+  --version-code 3 --version-name 1.2.0 --notes "新增内容A|修复问题B"
+
+# 3. 同步修改本 README 的「下载最新版」「更新内容」「历史版本」，复核后提交推送
+git add version.json releases/ README.md
+git commit -m "release: v1.2.0"
+git tag v1.2.0
+git push origin main --tags
+```
+
+4. 推送后浏览器打开 `https://purge.jsdelivr.net/gh/Hhb97/fanxiuji-release@main/version.json`
+   刷新镜像缓存（否则镜像最长约 12 小时后才更新；主地址约 5 分钟生效）。
+
+注意事项：
+
+- **必须用同一个签名证书**（源码仓库 `keystore/fanxiuji.jks`，不入库）签名，否则玩家无法覆盖安装、会丢存档。
+- 单个文件需小于 100 MB（GitHub 限制）。
+- `publish.py` 只改本地文件，不会自动提交或推送。
