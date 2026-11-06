@@ -4,12 +4,21 @@
 
 ## 下载最新版
 
-**[⬇ 下载 v1.1.1（约 19 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v1.1.1-release.apk)**
+**[⬇ 下载 v1.2.0（约 19 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v1.2.0-release.apk)**
 
 - 系统要求：Android 8.0（API 26）及以上
 - 首次安装需在系统设置中允许「安装未知来源应用」
 - 从旧版本升级：直接覆盖安装，存档保留（同一签名证书）
 - 游戏内「设置 › 检测更新」会自动提示新版本
+
+### v1.2.0 更新内容
+
+- 新玩法：地图上的妖兽、遗府出现具名怪物，约一成为★精英，击败必掉且品质更高
+- 秘境改为手动进入：点击闪烁的「秘」格开启小秘境，逐间斩妖寻宝，深处首领必掉上品，可随时撤出
+- 探索动画：小人在格子间移动，战果从头顶飘出；秘境内怪物血条随斗法下降
+- 物品详情：点任意功法、法器、丹药可查看完整描述、效果与对比，并直接装备 / 改修 / 服用
+- 操作反馈：领取、装备等按钮点完立即显示结果；战力上涨、突破境界有专属演出
+- 修复：领取按钮点了没变化；限时丹药在特定时刻服用会一直生效
 
 ### v1.1.1 更新内容
 
@@ -32,6 +41,7 @@
 
 | 版本 | versionCode | 下载 | SHA-256 |
 |---|---|---|---|
+| 1.2.0 | 4 | [fanxiuji-v1.2.0-release.apk](releases/fanxiuji-v1.2.0-release.apk) | `df8ab1e0c0988616fa66cb2da56264dd11bafb4ebb5dc7c4aa5cfc0979f4e9ad` |
 | 1.1.1 | 3 | [fanxiuji-v1.1.1-release.apk](releases/fanxiuji-v1.1.1-release.apk) | `d706ab73bdf25d4754834623d843c1a0310e0ad0e9c69ef41af1b3cd8767312c` |
 | 1.1.0 | 2 | [fanxiuji-v1.1.0-release.apk](releases/fanxiuji-v1.1.0-release.apk) | `e1105f4dafb232aff0f70eb1c840eb0ae3be032cf42e169e192226cc4ded170d` |
 | 1.0.0 | 1 | [fanxiuji-v1.0.0-release.apk](releases/fanxiuji-v1.0.0-release.apk) | `a46590b76608cac407771a98b66de511bdce8eb2053c3a0e3f68552b16ae6f65` |
@@ -43,9 +53,9 @@
 
 ```bash
 # Windows PowerShell
-Get-FileHash .\fanxiuji-v1.1.1-release.apk -Algorithm SHA256
+Get-FileHash .\fanxiuji-v1.2.0-release.apk -Algorithm SHA256
 # macOS / Linux
-shasum -a 256 fanxiuji-v1.1.1-release.apk
+shasum -a 256 fanxiuji-v1.2.0-release.apk
 ```
 
 结果应与上表及 [version.json](version.json) 中的 `apkSha256` 一致。

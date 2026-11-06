@@ -1,18 +1,19 @@
 {
-  "latestVersionCode": 3,
-  "latestVersionName": "1.1.1",
+  "latestVersionCode": 4,
+  "latestVersionName": "1.2.0",
   "minSupportedVersionCode": 1,
-  "apkFileName": "fanxiuji-v1.1.1-release.apk",
-  "apkSizeBytes": 19645953,
-  "apkSha256": "d706ab73bdf25d4754834623d843c1a0310e0ad0e9c69ef41af1b3cd8767312c",
-  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v1.1.1-release.apk",
+  "apkFileName": "fanxiuji-v1.2.0-release.apk",
+  "apkSizeBytes": 19714817,
+  "apkSha256": "df8ab1e0c0988616fa66cb2da56264dd11bafb4ebb5dc7c4aa5cfc0979f4e9ad",
+  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v1.2.0-release.apk",
   "releaseNotes": [
-    "修复：切换区域或经过传送阵后，探索进度会显示成「262 / 48」等超出上限的数字",
-    "修复：换区域后部分格子沿用旧地图的撤退冷却",
-    "修复：最后几个格子都在撤退冷却时，地图被误判为探完而提前重置、难度上升",
-    "修复：每日机缘与丹药抗药性改为本地零点重置（之前是早上 8 点）",
-    "优化：养成页红点不再因「可开炉」常亮"
+    "新玩法：地图上的妖兽、遗府出现具名怪物，约一成为★精英，击败必掉且品质更高",
+    "秘境改为手动进入：点击闪烁的「秘」格开启小秘境，逐间斩妖寻宝，深处首领必掉上品，可随时撤出",
+    "探索动画：小人在格子间移动，战果从头顶飘出；秘境内怪物血条随斗法下降",
+    "物品详情：点任意功法、法器、丹药可查看完整描述、效果与对比，并直接装备 / 改修 / 服用",
+    "操作反馈：领取、装备等按钮点完立即显示结果；战力上涨、突破境界有专属演出",
+    "修复：领取按钮点了没变化；限时丹药在特定时刻服用会一直生效"
   ],
-  "publishedAt": "2026-11-06T14:32:50+08:00",
+  "publishedAt": "2026-11-06T15:11:58+08:00",
   "channel": "stable"
 }
