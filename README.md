@@ -4,12 +4,20 @@
 
 ## 下载最新版
 
-**[⬇ 下载 v1.4.0（约 19 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v1.4.0-release.apk)**
+**[⬇ 下载 v1.5.0（约 19 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v1.5.0-release.apk)**
 
 - 系统要求：Android 8.0（API 26）及以上
 - 首次安装需在系统设置中允许「安装未知来源应用」
 - 从旧版本升级：直接覆盖安装，存档保留（同一签名证书）
 - 游戏内「设置 › 检测更新」会自动提示新版本
+
+### v1.5.0 更新内容
+
+- **主界面的打坐场景换了**：从纯粒子动画换成水墨修仙插画，人物居中吐纳，灵气萦绕。
+- **物品有图标了**：功法 / 技能 / 丹药 / 法器 / 材料 / 灵石六类图标，背包、详情、收获结算、坊市统一着色。
+- **新增坊市**：每日上架 6 件商品（突破丹、护道丹、技能残卷、高阶材料、法器），每件限购一次。
+- **灵石终于有用了**：缺货可花 400 灵石换一批；价格随境界上浮，买丹冲境还是攒钱刷货，由你决定。
+- **两处安全修复**：调回时钟不再能刷新货架；背包满时不会扣了灵石却丢物品。
 
 ### v1.4.0 更新内容
 
@@ -59,6 +67,7 @@
 
 | 版本 | versionCode | 下载 | SHA-256 |
 |---|---|---|---|
+| 1.5.0 | 7 | [fanxiuji-v1.5.0-release.apk](releases/fanxiuji-v1.5.0-release.apk) | `651158d5d0d75ea733194ce6f5a9ae88af8569b54cd341d9ba23b69ffa9d447d` |
 | 1.4.0 | 6 | [fanxiuji-v1.4.0-release.apk](releases/fanxiuji-v1.4.0-release.apk) | `e98636cc746a9354a08902d58e66669854b05a79342ac0bcb15b355278f02cc9` |
 | 1.3.0 | 5 | [fanxiuji-v1.3.0-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v1.3.0/releases/fanxiuji-v1.3.0-release.apk) | `9e94f09307005eea36d3546d0203f307d8302fce03d90c5581ac44f74e9fadb2` |
 | 1.2.0 | 4 | [fanxiuji-v1.2.0-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v1.2.0/releases/fanxiuji-v1.2.0-release.apk) | `df8ab1e0c0988616fa66cb2da56264dd11bafb4ebb5dc7c4aa5cfc0979f4e9ad` |
@@ -120,12 +129,12 @@ gradlew.bat testDebugUnitTest assembleRelease --offline
 # 2. 本仓库：复制 APK、计算校验和、更新 version.json（拒绝 versionCode 未递增或覆盖同名文件）
 cd ..\fanxiuji-release
 python publish.py ..\mortal-cultivation-idle\app\build\outputs\apk\release\app-release.apk ^
-  --version-code 7 --version-name 1.5.0 --notes "新增内容A|修复问题B"
+  --version-code 8 --version-name 1.6.0 --notes "新增内容A|修复问题B"
 
 # 3. 同步修改本 README 的「下载最新版」「更新内容」「历史版本」（上一版改成标签地址），复核后提交推送
 git add -A version.json releases/ README.md
-git commit -m "release: v1.5.0"
-git tag v1.5.0
+git commit -m "release: v1.6.0"
+git tag v1.6.0
 git push origin main --tags
 ```
 
