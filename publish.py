@@ -6,7 +6,7 @@ r"""《凡修纪》发布脚本：复制 APK（规范命名）→ 计算 SHA-256
 
 用法示例：
   python publish.py ..\mortal-cultivation-idle\app\build\outputs\apk\release\app-release.apk ^
-      --version-code 3 --version-name 1.2.0 ^
+      --version-code 7 --version-name 1.5.0 ^
       --notes "新增内容A|修复问题B"
 
 默认下载直链指向本 GitHub 仓库：
