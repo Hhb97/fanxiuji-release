@@ -4,12 +4,21 @@
 
 ## 下载最新版
 
-**[⬇ 下载 v1.5.0（约 19 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v1.5.0-release.apk)**
+**[⬇ 下载 v1.6.0（约 19 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v1.6.0-release.apk)**
 
 - 系统要求：Android 8.0（API 26）及以上
 - 首次安装需在系统设置中允许「安装未知来源应用」
 - 从旧版本升级：直接覆盖安装，存档保留（同一签名证书）
 - 游戏内「设置 › 检测更新」会自动提示新版本
+
+### v1.6.0 更新内容
+
+- **战斗真打起来了**：敌方有攻击和气血，你的防御与气血第一次真正决定胜负；30 回合没分胜负算撤退。
+- **五个流派真的不一样了**：剑修连击、体修反击并减伤、法修开场放法术、丹修抗药衰减减半、均衡流多揭一圈迷雾。
+- **技能栏 4 格**：主动 2 格、被动 2 格，参悟新技能自动填空位，斗法时按回合轮流释放。
+- **渡劫心魔战**：跨大境界不再点一下看概率，而是一场心魔战。战前选服丹（削弱心魔）、御器（按法器加持攻防）或硬抗（心魔更强，赢了额外得灵石与感悟）。
+- **秘境有了岔路**：每层两扇门，标注倾向与危险度；每 3 层一次三选一祝福；迟迟不选会按你的战力自动挑。
+- **修掉一个结构性问题**：攻击与防御此前不随境界成长，导致后期"血厚但打不动"。
 
 ### v1.5.0 更新内容
 
@@ -67,6 +76,7 @@
 
 | 版本 | versionCode | 下载 | SHA-256 |
 |---|---|---|---|
+| 1.6.0 | 8 | [fanxiuji-v1.6.0-release.apk](releases/fanxiuji-v1.6.0-release.apk) | `5a32526dd096cbf73bcea801de1a980d74543bcd262b3609596f01c883848bb7` |
 | 1.5.0 | 7 | [fanxiuji-v1.5.0-release.apk](releases/fanxiuji-v1.5.0-release.apk) | `651158d5d0d75ea733194ce6f5a9ae88af8569b54cd341d9ba23b69ffa9d447d` |
 | 1.4.0 | 6 | [fanxiuji-v1.4.0-release.apk](releases/fanxiuji-v1.4.0-release.apk) | `e98636cc746a9354a08902d58e66669854b05a79342ac0bcb15b355278f02cc9` |
 | 1.3.0 | 5 | [fanxiuji-v1.3.0-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v1.3.0/releases/fanxiuji-v1.3.0-release.apk) | `9e94f09307005eea36d3546d0203f307d8302fce03d90c5581ac44f74e9fadb2` |
@@ -129,12 +139,12 @@ gradlew.bat testDebugUnitTest assembleRelease --offline
 # 2. 本仓库：复制 APK、计算校验和、更新 version.json（拒绝 versionCode 未递增或覆盖同名文件）
 cd ..\fanxiuji-release
 python publish.py ..\mortal-cultivation-idle\app\build\outputs\apk\release\app-release.apk ^
-  --version-code 8 --version-name 1.6.0 --notes "新增内容A|修复问题B"
+  --version-code 9 --version-name 1.7.0 --notes "新增内容A|修复问题B"
 
 # 3. 同步修改本 README 的「下载最新版」「更新内容」「历史版本」（上一版改成标签地址），复核后提交推送
 git add -A version.json releases/ README.md
-git commit -m "release: v1.6.0"
-git tag v1.6.0
+git commit -m "release: v1.7.0"
+git tag v1.7.0
 git push origin main --tags
 ```
 
