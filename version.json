@@ -1,18 +1,17 @@
 {
-  "latestVersionCode": 8,
-  "latestVersionName": "1.6.0",
+  "latestVersionCode": 9,
+  "latestVersionName": "1.7.0",
   "minSupportedVersionCode": 1,
-  "apkFileName": "fanxiuji-v1.6.0-release.apk",
-  "apkSizeBytes": 20006075,
-  "apkSha256": "5a32526dd096cbf73bcea801de1a980d74543bcd262b3609596f01c883848bb7",
-  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v1.6.0-release.apk",
+  "apkFileName": "fanxiuji-v1.7.0-release.apk",
+  "apkSizeBytes": 20043248,
+  "apkSha256": "e2561a0e640cd00b8ae2cfc6c0f9144c26c1e633530403a6b0fe35b7df138650",
+  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v1.7.0-release.apk",
   "releaseNotes": [
-    "战斗改为双方真实出手：敌方有攻击与气血，防御与气血真正影响胜负",
-    "新增五流派行为与 4 格技能栏，斗法按回合轮流释放主动技能",
-    "跨大境界改为渡劫心魔战，战前服丹 / 御器 / 硬抗三选一",
-    "秘境改为分层选门，每 3 层一次三选一祝福，超时按战力自动选",
-    "修复攻击防御不随境界成长导致后期必然超时判负"
+    "新增主线「道途」：3 章 9 境遇，首个抉择决定你的流派",
+    "修好功法参悟度：此前永久显示 0，现在按修炼时长成长并提升倍率",
+    "新增装备强化 +0 到 +15，灵石终于有第二个出口",
+    "主界面减负：每日机缘折叠、战报只留最新一条"
   ],
-  "publishedAt": "2026-11-11T09:23:36+08:00",
+  "publishedAt": "2026-11-11T14:27:07+08:00",
   "channel": "stable"
 }

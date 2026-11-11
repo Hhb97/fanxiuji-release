@@ -4,12 +4,20 @@
 
 ## 下载最新版
 
-**[⬇ 下载 v1.6.0（约 19 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v1.6.0-release.apk)**
+**[⬇ 下载 v1.7.0（约 19 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v1.7.0-release.apk)**
 
 - 系统要求：Android 8.0（API 26）及以上
 - 首次安装需在系统设置中允许「安装未知来源应用」
 - 从旧版本升级：直接覆盖安装，存档保留（同一签名证书）
 - 游戏内「设置 › 检测更新」会自动提示新版本
+
+### v1.7.0 更新内容
+
+- **终于有主线了**：新增「道途」三卷九境。第一境是山门三叩——四块石碑分别对应剑冢、厚土、九转、丹霞，叩哪一块，往后百年的路就是哪一条。
+- **每个境遇都是一次选择**：达成条件后从三条路里挑一条，奖励是功法、法器、材料或灵石。条件算的是累计（探索、胜场、破境），不会因为跨天清零。
+- **功法参悟度修好了**：之前那个"参悟度"一直显示 0 不动，是因为根本没有代码让它涨。现在主修功法会随修炼时长累积，每级 +2.5% 倍率，10 级封顶。换功法不清零——练满一本是长期目标。
+- **装备可以强化了**：+0 到 +15，每级放大该装备全部加成 5%。+10 以内必成，之后有失败风险（失败只掉 1 级，不会归零）。
+- **主界面清爽了**：每日机缘折叠成一行，战报只留最新一条。
 
 ### v1.6.0 更新内容
 
@@ -76,6 +84,7 @@
 
 | 版本 | versionCode | 下载 | SHA-256 |
 |---|---|---|---|
+| 1.7.0 | 9 | [fanxiuji-v1.7.0-release.apk](releases/fanxiuji-v1.7.0-release.apk) | `e2561a0e640cd00b8ae2cfc6c0f9144c26c1e633530403a6b0fe35b7df138650` |
 | 1.6.0 | 8 | [fanxiuji-v1.6.0-release.apk](releases/fanxiuji-v1.6.0-release.apk) | `5a32526dd096cbf73bcea801de1a980d74543bcd262b3609596f01c883848bb7` |
 | 1.5.0 | 7 | [fanxiuji-v1.5.0-release.apk](releases/fanxiuji-v1.5.0-release.apk) | `651158d5d0d75ea733194ce6f5a9ae88af8569b54cd341d9ba23b69ffa9d447d` |
 | 1.4.0 | 6 | [fanxiuji-v1.4.0-release.apk](releases/fanxiuji-v1.4.0-release.apk) | `e98636cc746a9354a08902d58e66669854b05a79342ac0bcb15b355278f02cc9` |
@@ -139,12 +148,12 @@ gradlew.bat testDebugUnitTest assembleRelease --offline
 # 2. 本仓库：复制 APK、计算校验和、更新 version.json（拒绝 versionCode 未递增或覆盖同名文件）
 cd ..\fanxiuji-release
 python publish.py ..\mortal-cultivation-idle\app\build\outputs\apk\release\app-release.apk ^
-  --version-code 9 --version-name 1.7.0 --notes "新增内容A|修复问题B"
+  --version-code 10 --version-name 1.8.0 --notes "新增内容A|修复问题B"
 
 # 3. 同步修改本 README 的「下载最新版」「更新内容」「历史版本」（上一版改成标签地址），复核后提交推送
 git add -A version.json releases/ README.md
-git commit -m "release: v1.7.0"
-git tag v1.7.0
+git commit -m "release: v1.8.0"
+git tag v1.8.0
 git push origin main --tags
 ```
 
