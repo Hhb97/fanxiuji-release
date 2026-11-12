@@ -1,17 +1,18 @@
 {
-  "latestVersionCode": 10,
-  "latestVersionName": "1.8.0",
+  "latestVersionCode": 11,
+  "latestVersionName": "1.9.0",
   "minSupportedVersionCode": 1,
-  "apkFileName": "fanxiuji-v1.8.0-release.apk",
-  "apkSizeBytes": 20066228,
-  "apkSha256": "a1c8a7ccc6113f56238ee7b38c2fa50a900f461a70f873fedd9df276f8f11f1c",
-  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v1.8.0-release.apk",
+  "apkFileName": "fanxiuji-v1.9.0-release.apk",
+  "apkSizeBytes": 20093952,
+  "apkSha256": "a158a54c91c5b7fac65d7a3879f6741c72cd513026ec8f06b49be3746079fb6a",
+  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v1.9.0-release.apk",
   "releaseNotes": [
-    "主线分支真正生效：首章流派改写后续剧情与专属奖励",
-    "主线续写到 9 卷 27 节点，覆盖 45 层全程，新增塔层/图鉴/强化等结构化目标",
-    "功法页可锁定流派，跨流派功法不再被自动换掉",
-    "主界面新增下一境卡点诊断与里程碑纪事，收获页可只看待决策项"
+    "界面重整：底部改为 修炼 / 历练 / 洞府 / 角色 四个页签，设置移到角色页右上角，子页面逐级返回",
+    "首页「下一步」：只告诉你现在最该做的一件事，点一下直达",
+    "新增成就与称号、功法升星（重复功法不再白白分解）、洞府灵田、每周目标、秘境每周词缀",
+    "秘境与渡劫心魔战难度重新标定；文字放大，更易读",
+    "说明：本版以 v1.7 为基础重做，v1.8 的主线续章（第四卷起）与流派锁定暂时下线；存档其余内容完整保留"
   ],
-  "publishedAt": "2026-11-12T12:09:28+08:00",
+  "publishedAt": "2026-11-12T18:26:27+08:00",
   "channel": "stable"
 }

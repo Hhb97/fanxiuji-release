@@ -4,12 +4,28 @@
 
 ## 下载最新版
 
-**[⬇ 下载 v1.8.0（约 19 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v1.8.0-release.apk)**
+**[⬇ 下载 v1.9.0（约 19 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v1.9.0-release.apk)**
 
 - 系统要求：Android 8.0（API 26）及以上
 - 首次安装需在系统设置中允许「安装未知来源应用」
 - 从旧版本升级：直接覆盖安装，存档保留（同一签名证书）
 - 游戏内「设置 › 检测更新」会自动提示新版本
+
+### v1.9.0 更新内容
+
+- **界面重整**：底部改为「修炼 / 历练 / 洞府 / 角色」四个页签，设置移到角色页右上角；子页面可以逐级返回，切换页签时各自停在原处。
+- **首页只说一件事**：新的「下一步」卡按轻重缓急告诉你现在最该做什么（渡劫、结算收获、领道途奖励、收灵田……），点一下直达。
+- **历练与洞府**：秘境、镇妖塔、渡劫集中在「历练」页顶部；「洞府」分为修行、器物、丹坊、纪事四组，哪里有事亮红点。
+- **新玩法**：
+  - 成就与称号：16 项成就，6 个称号，称号带永久加成，同一时间佩戴一个；
+  - 功法升星：重复得到的功法不再白白分解，默认用来升星，每星主修倍率 +6%，最多 5 星；
+  - 洞府灵田：花灵石种下灵草、雷木等，离线照常成熟，收获进入收获结算；
+  - 每周目标：每周一刷新 3 个目标；
+  - 秘境每周词缀：每周两条规则轮换，比如「首领暴怒」「灵泉涌动」。
+- **难度重标定**：秘境和渡劫心魔战按大量模拟重新调整，服丹渡劫大约七到八成胜算，硬抗大约四到五成。
+- **更易读**：小字统一放大。
+- **请注意**：这一版以 v1.7 为基础重做。v1.8 的主线续章（第四卷起）、功法流派锁定和「下一境倒计时」暂时下线；
+  已走过前三卷的道友，道途会显示为「已走完」。境界、背包、装备等其余存档内容完整保留，可直接覆盖安装。
 
 ### v1.8.0 更新内容
 
@@ -95,7 +111,8 @@
 
 | 版本 | versionCode | 下载 | SHA-256 |
 |---|---|---|---|
-| **1.8.0** | **10** | [fanxiuji-v1.8.0-release.apk](releases/fanxiuji-v1.8.0-release.apk) | `a1c8a7ccc6113f56238ee7b38c2fa50a900f461a70f873fedd9df276f8f11f1c` |
+| **1.9.0** | **11** | [fanxiuji-v1.9.0-release.apk](releases/fanxiuji-v1.9.0-release.apk) | `a158a54c91c5b7fac65d7a3879f6741c72cd513026ec8f06b49be3746079fb6a` |
+| 1.8.0 | 10 | [fanxiuji-v1.8.0-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v1.8.0/releases/fanxiuji-v1.8.0-release.apk) | `a1c8a7ccc6113f56238ee7b38c2fa50a900f461a70f873fedd9df276f8f11f1c` |
 | 1.7.0 | 9 | [fanxiuji-v1.7.0-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v1.7.0/releases/fanxiuji-v1.7.0-release.apk) | `e2561a0e640cd00b8ae2cfc6c0f9144c26c1e633530403a6b0fe35b7df138650` |
 | 1.6.0 | 8 | [fanxiuji-v1.6.0-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v1.6.0/releases/fanxiuji-v1.6.0-release.apk) | `5a32526dd096cbf73bcea801de1a980d74543bcd262b3609596f01c883848bb7` |
 | 1.5.0 | 7 | [fanxiuji-v1.5.0-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v1.5.0/releases/fanxiuji-v1.5.0-release.apk) | `651158d5d0d75ea733194ce6f5a9ae88af8569b54cd341d9ba23b69ffa9d447d` |
@@ -115,9 +132,9 @@
 
 ```bash
 # Windows PowerShell
-Get-FileHash .\fanxiuji-v1.4.0-release.apk -Algorithm SHA256
+Get-FileHash .\fanxiuji-v1.9.0-release.apk -Algorithm SHA256
 # macOS / Linux
-shasum -a 256 fanxiuji-v1.4.0-release.apk
+shasum -a 256 fanxiuji-v1.9.0-release.apk
 ```
 
 结果应与上表及 [version.json](version.json) 中的 `apkSha256` 一致。
@@ -160,12 +177,12 @@ gradlew.bat testDebugUnitTest assembleRelease --offline
 # 2. 本仓库：复制 APK、计算校验和、更新 version.json（拒绝 versionCode 未递增或覆盖同名文件）
 cd ..\fanxiuji-release
 python publish.py ..\mortal-cultivation-idle\app\build\outputs\apk\release\app-release.apk ^
-  --version-code 10 --version-name 1.8.0 --notes "新增内容A|修复问题B"
+  --version-code 12 --version-name 2.0.0 --notes "新增内容A|修复问题B"
 
 # 3. 同步修改本 README 的「下载最新版」「更新内容」「历史版本」（上一版改成标签地址），复核后提交推送
 git add -A version.json releases/ README.md
-git commit -m "release: v1.8.0"
-git tag v1.8.0
+git commit -m "release: v2.0.0"
+git tag v2.0.0
 git push origin main --tags
 ```
 
