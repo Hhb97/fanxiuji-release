@@ -1,17 +1,17 @@
 {
-  "latestVersionCode": 9,
-  "latestVersionName": "1.7.0",
+  "latestVersionCode": 10,
+  "latestVersionName": "1.8.0",
   "minSupportedVersionCode": 1,
-  "apkFileName": "fanxiuji-v1.7.0-release.apk",
-  "apkSizeBytes": 20043248,
-  "apkSha256": "e2561a0e640cd00b8ae2cfc6c0f9144c26c1e633530403a6b0fe35b7df138650",
-  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v1.7.0-release.apk",
+  "apkFileName": "fanxiuji-v1.8.0-release.apk",
+  "apkSizeBytes": 20066228,
+  "apkSha256": "a1c8a7ccc6113f56238ee7b38c2fa50a900f461a70f873fedd9df276f8f11f1c",
+  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v1.8.0-release.apk",
   "releaseNotes": [
-    "新增主线「道途」：3 章 9 境遇，首个抉择决定你的流派",
-    "修好功法参悟度：此前永久显示 0，现在按修炼时长成长并提升倍率",
-    "新增装备强化 +0 到 +15，灵石终于有第二个出口",
-    "主界面减负：每日机缘折叠、战报只留最新一条"
+    "主线分支真正生效：首章流派改写后续剧情与专属奖励",
+    "主线续写到 9 卷 27 节点，覆盖 45 层全程，新增塔层/图鉴/强化等结构化目标",
+    "功法页可锁定流派，跨流派功法不再被自动换掉",
+    "主界面新增下一境卡点诊断与里程碑纪事，收获页可只看待决策项"
   ],
-  "publishedAt": "2026-11-11T14:27:07+08:00",
+  "publishedAt": "2026-11-12T12:09:28+08:00",
   "channel": "stable"
 }

@@ -4,12 +4,23 @@
 
 ## 下载最新版
 
-**[⬇ 下载 v1.7.0（约 19 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v1.7.0-release.apk)**
+**[⬇ 下载 v1.8.0（约 19 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v1.8.0-release.apk)**
 
 - 系统要求：Android 8.0（API 26）及以上
 - 首次安装需在系统设置中允许「安装未知来源应用」
 - 从旧版本升级：直接覆盖安装，存档保留（同一签名证书）
 - 游戏内「设置 › 检测更新」会自动提示新版本
+
+### v1.8.0 更新内容
+
+- **当年那一叩，终于算数了**：山门选的流派会改写后续卷的开场白，并在第三章解锁只属于这一派的功法或丹药；
+  选过的誓约还会以永久加成留在角色身上（只登记一次，不会重复叠加）。
+- **主线写到飞升台**：从 3 卷 9 境续到 **9 卷 27 境**，覆盖 45 层境界全程。后面的目标不再是「又刷了多少次」，
+  而是镇妖塔层数、图鉴收录、装备强化、心魔胜场、坊市往来这些「做成了什么」。
+- **功法可以锁流派了**：功法页锁定剑 / 体 / 法 / 丹 / 均衡后，一键智能收菜只自动换同流派功法，
+  跨流派的好东西会留在背包等你决定；手动改修仍然自由。
+- **知道下一步该干嘛**：主界面多了「下一境倒计时 + 卡点诊断」，卡在哪直接点进去处理；
+  另有默认折叠的「修行纪事」记录破境、主线与极品掉落。收获页可切「仅看待决策」，主线页能回看自己走过的路。
 
 ### v1.7.0 更新内容
 
@@ -84,10 +95,11 @@
 
 | 版本 | versionCode | 下载 | SHA-256 |
 |---|---|---|---|
-| 1.7.0 | 9 | [fanxiuji-v1.7.0-release.apk](releases/fanxiuji-v1.7.0-release.apk) | `e2561a0e640cd00b8ae2cfc6c0f9144c26c1e633530403a6b0fe35b7df138650` |
-| 1.6.0 | 8 | [fanxiuji-v1.6.0-release.apk](releases/fanxiuji-v1.6.0-release.apk) | `5a32526dd096cbf73bcea801de1a980d74543bcd262b3609596f01c883848bb7` |
-| 1.5.0 | 7 | [fanxiuji-v1.5.0-release.apk](releases/fanxiuji-v1.5.0-release.apk) | `651158d5d0d75ea733194ce6f5a9ae88af8569b54cd341d9ba23b69ffa9d447d` |
-| 1.4.0 | 6 | [fanxiuji-v1.4.0-release.apk](releases/fanxiuji-v1.4.0-release.apk) | `e98636cc746a9354a08902d58e66669854b05a79342ac0bcb15b355278f02cc9` |
+| **1.8.0** | **10** | [fanxiuji-v1.8.0-release.apk](releases/fanxiuji-v1.8.0-release.apk) | `a1c8a7ccc6113f56238ee7b38c2fa50a900f461a70f873fedd9df276f8f11f1c` |
+| 1.7.0 | 9 | [fanxiuji-v1.7.0-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v1.7.0/releases/fanxiuji-v1.7.0-release.apk) | `e2561a0e640cd00b8ae2cfc6c0f9144c26c1e633530403a6b0fe35b7df138650` |
+| 1.6.0 | 8 | [fanxiuji-v1.6.0-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v1.6.0/releases/fanxiuji-v1.6.0-release.apk) | `5a32526dd096cbf73bcea801de1a980d74543bcd262b3609596f01c883848bb7` |
+| 1.5.0 | 7 | [fanxiuji-v1.5.0-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v1.5.0/releases/fanxiuji-v1.5.0-release.apk) | `651158d5d0d75ea733194ce6f5a9ae88af8569b54cd341d9ba23b69ffa9d447d` |
+| 1.4.0 | 6 | [fanxiuji-v1.4.0-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v1.4.0/releases/fanxiuji-v1.4.0-release.apk) | `e98636cc746a9354a08902d58e66669854b05a79342ac0bcb15b355278f02cc9` |
 | 1.3.0 | 5 | [fanxiuji-v1.3.0-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v1.3.0/releases/fanxiuji-v1.3.0-release.apk) | `9e94f09307005eea36d3546d0203f307d8302fce03d90c5581ac44f74e9fadb2` |
 | 1.2.0 | 4 | [fanxiuji-v1.2.0-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v1.2.0/releases/fanxiuji-v1.2.0-release.apk) | `df8ab1e0c0988616fa66cb2da56264dd11bafb4ebb5dc7c4aa5cfc0979f4e9ad` |
 | 1.1.1 | 3 | [fanxiuji-v1.1.1-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v1.1.1/releases/fanxiuji-v1.1.1-release.apk) | `d706ab73bdf25d4754834623d843c1a0310e0ad0e9c69ef41af1b3cd8767312c` |
