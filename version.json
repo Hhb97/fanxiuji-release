@@ -1,17 +1,17 @@
 {
-  "latestVersionCode": 13,
-  "latestVersionName": "1.9.2",
+  "latestVersionCode": 14,
+  "latestVersionName": "1.9.3",
   "minSupportedVersionCode": 1,
-  "apkFileName": "fanxiuji-v1.9.2-release.apk",
-  "apkSizeBytes": 20110336,
-  "apkSha256": "49f47fffe90912a796dae628adc57a93743a012f02339d9f7d72c0431214319f",
-  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v1.9.2-release.apk",
+  "apkFileName": "fanxiuji-v1.9.3-release.apk",
+  "apkSizeBytes": 20126720,
+  "apkSha256": "be5ec4712fa7b06521164ee0c61438d5462ec469bc1697f45aaf2e8959cb050e",
+  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v1.9.3-release.apk",
   "releaseNotes": [
-    "历练实况舞台新增双方血条，打输时小人后撤并落「撤」字，胜负一眼可见",
-    "演武待机 60 秒无新战斗后自动暂停以省电，轻点舞台即可继续",
-    "战斗演出更流畅：每帧只重绘画面，不再整块重算",
-    "流派名称与物品详情统一"
+    "探图实况：历练页的地图变成会动的山水小地图，小人沿路赶路、留下足迹，云雾散开露出地标",
+    "到达后头顶飘出得宝 / 斩 / 撤，走过的地方留下结果标记；遇到妖兽只标结果，不打断看图",
+    "轻点地图进入原来可操作的详细网格",
+    "60 秒没有走动时云雾动画自动暂停以省电，轻点继续"
   ],
-  "publishedAt": "2026-11-13T11:37:39+08:00",
+  "publishedAt": "2026-11-13T11:45:50+08:00",
   "channel": "stable"
 }
