@@ -1,18 +1,18 @@
 {
-  "latestVersionCode": 16,
-  "latestVersionName": "2.1.0",
+  "latestVersionCode": 17,
+  "latestVersionName": "2.2.0",
   "minSupportedVersionCode": 1,
-  "apkFileName": "fanxiuji-v2.1.0-release.apk",
-  "apkSizeBytes": 20632356,
-  "apkSha256": "b6e676ce24db4ff2abc5870d57924e3cca405219a00c2a8927ec0ecbc46b53f9",
-  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.1.0-release.apk",
+  "apkFileName": "fanxiuji-v2.2.0-release.apk",
+  "apkSizeBytes": 21745141,
+  "apkSha256": "a34b6aa1426576f0415c8d7ca5a51f71e703ae083b4a37ddc99e37420c03947e",
+  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.2.0-release.apk",
   "releaseNotes": [
-    "斗法换上真立绘：修士与妖兽左右对峙，剑气飞出、命中闪白、伤害飞字、立绘下方血条，斩杀时妖兽消散",
-    "场景背景改为当前区域徽记，地图页区域信息配图",
-    "赶路时前方盘踞的妖兽以虚影提前出现",
-    "镇妖塔、秘境、节点详情、每日机缘都换上立绘",
-    "区域、节点事件、每日机缘与部分妖兽改为山海经体文案；存档与数值不变"
+    "第二批素材：九个区域徽记、九只区域首领全部换上专属立绘",
+    "60 件物品有了专属图标，储物、坊市、详情、收获结算都换上",
+    "地图格子、图例、节点详情、探图小地图改用节点图标，不再是汉字",
+    "秘境房间显示妖兽立绘；赶路时预告前方地标",
+    "存档与数值不变，可直接覆盖安装"
   ],
-  "publishedAt": "2026-11-13T13:38:52+08:00",
+  "publishedAt": "2026-11-13T15:33:40+08:00",
   "channel": "stable"
 }
