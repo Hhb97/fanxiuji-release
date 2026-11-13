@@ -1,19 +1,18 @@
 {
-  "latestVersionCode": 18,
-  "latestVersionName": "2.3.0",
+  "latestVersionCode": 19,
+  "latestVersionName": "2.4.0",
   "minSupportedVersionCode": 1,
-  "apkFileName": "fanxiuji-v2.3.0-release.apk",
+  "apkFileName": "fanxiuji-v2.4.0-release.apk",
   "apkSizeBytes": 21761529,
-  "apkSha256": "a8888acd29f2efddd19e6c2d17d73b8a406aa5682356025b17719b76aa1111af",
-  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.3.0-release.apk",
+  "apkSha256": "f9568fc60c445b1fe384b400fdf021fd4c0d97953df93cabba0a57cf6cc15004",
+  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.4.0-release.apk",
   "releaseNotes": [
-    "斗法更有打击感：主角蓄势前冲，剑气拖着彗星尾飞出，命中时妖兽闪亮、被击退，火花四溅",
-    "暴击金色冲击波并震屏；妖兽反扑时爪痕划过，主角泛红后仰，闪避留下残影",
-    "血条先掉、残血再追上；伤害数字弹出后上飘",
-    "斩杀时一刀斩过、妖兽碎成灵屑，「斩」字重重落印",
-    "赶路时人物起伏前倾、身后流光；收取灵气时灵光飞入主角",
+    "不同功法不同打法：剑修飞剑疾射留十字剑痕，法修起法阵、法球炸开旋转符印",
+    "体修本人冲到妖兽面前一拳震出冲击波与地裂；丹修抛丹丸炸开毒雾；均衡功法打出新月气刃",
+    "技能五行各有颜色与粒子：金芒、火焰余烬、冰棱霜环、叶片旋飞、碎石崩落，雷影剑诀天雷劈落",
+    "主角能量环、技能名、斗法面板剑气随功法与技能换色",
     "存档与数值不变，可直接覆盖安装"
   ],
-  "publishedAt": "2026-11-13T16:33:17+08:00",
+  "publishedAt": "2026-11-13T16:42:04+08:00",
   "channel": "stable"
 }

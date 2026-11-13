@@ -4,12 +4,21 @@
 
 ## 下载最新版
 
-**[⬇ 下载 v2.3.0（约 21 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.3.0-release.apk)**
+**[⬇ 下载 v2.4.0（约 21 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.4.0-release.apk)**
 
 - 系统要求：Android 8.0（API 26）及以上
 - 首次安装需在系统设置中允许「安装未知来源应用」
 - 从旧版本升级：直接覆盖安装，存档保留（同一签名证书）
 - 游戏内「设置 › 检测更新」会自动提示新版本
+
+### v2.4.0 更新内容
+
+- **不同功法，不同打法**：主修剑修功法时飞剑疾射、命中留下十字剑痕；法修掌前起法阵、法球命中炸开旋转符印；
+  体修不放飞剑，本人一路冲到妖兽面前，一拳震出贴地冲击波与地裂；丹修抛出丹丸，命中炸开毒雾；均衡功法打出新月气刃。
+- **技能五行各有颜色**：金系金芒闪烁，火系火光与余烬上飘，水系冰棱迸射、六角霜环，木系叶片旋飞，土系碎石崩落；
+  雷影剑诀会有天雷劈落。
+- 主角的能量环、技能名颜色也随功法和技能变化；镇妖塔和秘境的斗法面板同步换色。
+- 存档与数值不变，可直接覆盖安装。
 
 ### v2.3.0 更新内容
 
@@ -178,7 +187,8 @@
 
 | 版本 | versionCode | 下载 | SHA-256 |
 |---|---|---|---|
-| **2.3.0** | **18** | [fanxiuji-v2.3.0-release.apk](releases/fanxiuji-v2.3.0-release.apk) | `a8888acd29f2efddd19e6c2d17d73b8a406aa5682356025b17719b76aa1111af` |
+| **2.4.0** | **19** | [fanxiuji-v2.4.0-release.apk](releases/fanxiuji-v2.4.0-release.apk) | `f9568fc60c445b1fe384b400fdf021fd4c0d97953df93cabba0a57cf6cc15004` |
+| 2.3.0 | 18 | [fanxiuji-v2.3.0-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.3.0/releases/fanxiuji-v2.3.0-release.apk) | `a8888acd29f2efddd19e6c2d17d73b8a406aa5682356025b17719b76aa1111af` |
 | 2.2.0 | 17 | [fanxiuji-v2.2.0-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.2.0/releases/fanxiuji-v2.2.0-release.apk) | `a34b6aa1426576f0415c8d7ca5a51f71e703ae083b4a37ddc99e37420c03947e` |
 | 2.1.0 | 16 | [fanxiuji-v2.1.0-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.1.0/releases/fanxiuji-v2.1.0-release.apk) | `b6e676ce24db4ff2abc5870d57924e3cca405219a00c2a8927ec0ecbc46b53f9` |
 | 2.0.0 | 15 | [fanxiuji-v2.0.0-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.0.0/releases/fanxiuji-v2.0.0-release.apk) | `b8002155dcd195f557dbffb80ef09f9281b3ee864acb40099cf8d198274098f4` |
@@ -206,9 +216,9 @@
 
 ```bash
 # Windows PowerShell
-Get-FileHash .\fanxiuji-v2.3.0-release.apk -Algorithm SHA256
+Get-FileHash .\fanxiuji-v2.4.0-release.apk -Algorithm SHA256
 # macOS / Linux
-shasum -a 256 fanxiuji-v2.3.0-release.apk
+shasum -a 256 fanxiuji-v2.4.0-release.apk
 ```
 
 结果应与上表及 [version.json](version.json) 中的 `apkSha256` 一致。
@@ -251,12 +261,12 @@ gradlew.bat testDebugUnitTest assembleRelease --offline
 # 2. 本仓库：复制 APK、计算校验和、更新 version.json（拒绝 versionCode 未递增或覆盖同名文件）
 cd ..\fanxiuji-release
 python publish.py ..\mortal-cultivation-idle\app\build\outputs\apk\release\app-release.apk ^
-  --version-code 19 --version-name 2.3.1 --notes "新增内容A|修复问题B"
+  --version-code 20 --version-name 2.4.1 --notes "新增内容A|修复问题B"
 
 # 3. 同步修改本 README 的「下载最新版」「更新内容」「历史版本」（上一版改成标签地址），复核后提交推送
 git add -A version.json releases/ README.md
-git commit -m "release: v2.3.1"
-git tag v2.3.1
+git commit -m "release: v2.4.1"
+git tag v2.4.1
 git push origin main --tags
 ```
 
