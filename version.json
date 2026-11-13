@@ -1,17 +1,17 @@
 {
-  "latestVersionCode": 12,
-  "latestVersionName": "1.9.1",
+  "latestVersionCode": 13,
+  "latestVersionName": "1.9.2",
   "minSupportedVersionCode": 1,
-  "apkFileName": "fanxiuji-v1.9.1-release.apk",
+  "apkFileName": "fanxiuji-v1.9.2-release.apk",
   "apkSizeBytes": 20110336,
-  "apkSha256": "a4dd8de68d7433fd882d2b608beb1876b6c65eeb9ec1935c9f0c9edca65d45e2",
-  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v1.9.1-release.apk",
+  "apkSha256": "49f47fffe90912a796dae628adc57a93743a012f02339d9f7d72c0431214319f",
+  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v1.9.2-release.apk",
   "releaseNotes": [
-    "历练页新增「历练实况」：画出人物小人，手持当前装备的武器挥剑，剑气与命中火花打到妖兽身上",
-    "没有战斗时自动演武陪练，遇到妖兽会按真实斗法回放技能名、伤害、连击、暴击与开场法阵",
-    "人物袍色随主修流派变化，武器形状随剑/符/环变化",
-    "历练页大地图默认折叠成一行，战力、策略、战报等数据不再被挤出首屏"
+    "历练实况舞台新增双方血条，打输时小人后撤并落「撤」字，胜负一眼可见",
+    "演武待机 60 秒无新战斗后自动暂停以省电，轻点舞台即可继续",
+    "战斗演出更流畅：每帧只重绘画面，不再整块重算",
+    "流派名称与物品详情统一"
   ],
-  "publishedAt": "2026-11-13T11:22:59+08:00",
+  "publishedAt": "2026-11-13T11:37:39+08:00",
   "channel": "stable"
 }

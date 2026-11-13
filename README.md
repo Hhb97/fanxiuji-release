@@ -4,12 +4,19 @@
 
 ## 下载最新版
 
-**[⬇ 下载 v1.9.1（约 19 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v1.9.1-release.apk)**
+**[⬇ 下载 v1.9.2（约 19 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v1.9.2-release.apk)**
 
 - 系统要求：Android 8.0（API 26）及以上
 - 首次安装需在系统设置中允许「安装未知来源应用」
 - 从旧版本升级：直接覆盖安装，存档保留（同一签名证书）
 - 游戏内「设置 › 检测更新」会自动提示新版本
+
+### v1.9.2 更新内容
+
+- **胜负一眼可见**：历练实况舞台底部新增双方血条，跟着每一次出手实时变化；打输时小人后撤并落「撤」字。
+- **更省电**：60 秒没有新战斗，演武动画会自动暂停，轻点舞台即可继续。
+- **更流畅**：战斗演出时每帧只重绘画面，不再整块重算。
+- 流派名称与物品详情统一。
 
 ### v1.9.1 更新内容
 
@@ -120,7 +127,8 @@
 
 | 版本 | versionCode | 下载 | SHA-256 |
 |---|---|---|---|
-| **1.9.1** | **12** | [fanxiuji-v1.9.1-release.apk](releases/fanxiuji-v1.9.1-release.apk) | `a4dd8de68d7433fd882d2b608beb1876b6c65eeb9ec1935c9f0c9edca65d45e2` |
+| **1.9.2** | **13** | [fanxiuji-v1.9.2-release.apk](releases/fanxiuji-v1.9.2-release.apk) | `49f47fffe90912a796dae628adc57a93743a012f02339d9f7d72c0431214319f` |
+| 1.9.1 | 12 | [fanxiuji-v1.9.1-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v1.9.1/releases/fanxiuji-v1.9.1-release.apk) | `a4dd8de68d7433fd882d2b608beb1876b6c65eeb9ec1935c9f0c9edca65d45e2` |
 | 1.9.0 | 11 | [fanxiuji-v1.9.0-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v1.9.0/releases/fanxiuji-v1.9.0-release.apk) | `a158a54c91c5b7fac65d7a3879f6741c72cd513026ec8f06b49be3746079fb6a` |
 | 1.8.0 | 10 | [fanxiuji-v1.8.0-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v1.8.0/releases/fanxiuji-v1.8.0-release.apk) | `a1c8a7ccc6113f56238ee7b38c2fa50a900f461a70f873fedd9df276f8f11f1c` |
 | 1.7.0 | 9 | [fanxiuji-v1.7.0-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v1.7.0/releases/fanxiuji-v1.7.0-release.apk) | `e2561a0e640cd00b8ae2cfc6c0f9144c26c1e633530403a6b0fe35b7df138650` |
@@ -142,9 +150,9 @@
 
 ```bash
 # Windows PowerShell
-Get-FileHash .\fanxiuji-v1.9.1-release.apk -Algorithm SHA256
+Get-FileHash .\fanxiuji-v1.9.2-release.apk -Algorithm SHA256
 # macOS / Linux
-shasum -a 256 fanxiuji-v1.9.1-release.apk
+shasum -a 256 fanxiuji-v1.9.2-release.apk
 ```
 
 结果应与上表及 [version.json](version.json) 中的 `apkSha256` 一致。
