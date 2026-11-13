@@ -1,17 +1,18 @@
 {
-  "latestVersionCode": 14,
-  "latestVersionName": "1.9.3",
+  "latestVersionCode": 15,
+  "latestVersionName": "2.0.0",
   "minSupportedVersionCode": 1,
-  "apkFileName": "fanxiuji-v1.9.3-release.apk",
-  "apkSizeBytes": 20126720,
-  "apkSha256": "be5ec4712fa7b06521164ee0c61438d5462ec469bc1697f45aaf2e8959cb050e",
-  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v1.9.3-release.apk",
+  "apkFileName": "fanxiuji-v2.0.0-release.apk",
+  "apkSizeBytes": 20143104,
+  "apkSha256": "b8002155dcd195f557dbffb80ef09f9281b3ee864acb40099cf8d198274098f4",
+  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.0.0-release.apk",
   "releaseNotes": [
-    "探图实况：历练页的地图变成会动的山水小地图，小人沿路赶路、留下足迹，云雾散开露出地标",
-    "到达后头顶飘出得宝 / 斩 / 撤，走过的地方留下结果标记；遇到妖兽只标结果，不打断看图",
-    "轻点地图进入原来可操作的详细网格",
-    "60 秒没有走动时云雾动画自动暂停以省电，轻点继续"
+    "全新主界面：上半屏是常驻修行场景，任何页签都能看到角色挂机斗法；下方 12 个页签一点直达",
+    "斗法演出：伤害数字飞出、暴击金字、双方血条、技能名，胜负落「斩 / 撤」",
+    "轻点场景即可收集灵气",
+    "功法、地图、储物改为列表与详情同屏；储物可并排对比当前装备与选中法器",
+    "新配色：黑底细线、青绿选中、名称按品质着色；存档与数值不变，可直接覆盖安装"
   ],
-  "publishedAt": "2026-11-13T11:45:50+08:00",
+  "publishedAt": "2026-11-13T12:02:35+08:00",
   "channel": "stable"
 }

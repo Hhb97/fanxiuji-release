@@ -4,12 +4,23 @@
 
 ## 下载最新版
 
-**[⬇ 下载 v1.9.3（约 19 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v1.9.3-release.apk)**
+**[⬇ 下载 v2.0.0（约 19 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.0.0-release.apk)**
 
 - 系统要求：Android 8.0（API 26）及以上
 - 首次安装需在系统设置中允许「安装未知来源应用」
 - 从旧版本升级：直接覆盖安装，存档保留（同一签名证书）
 - 游戏内「设置 › 检测更新」会自动提示新版本
+
+### v2.0.0 更新内容
+
+- **全新主界面**：上半屏是常驻的修行场景，无论切到哪个页签，都能看到角色在当前区域挂机、遇敌、斗法；
+  下半屏是功能面板，最下方两排共 12 个页签（信息、地图、储物、功法、历练、丹房、属性、道途、坊市、机缘、成就、设置），一点直达。
+- **斗法更有看头**：遇敌时伤害数字从受击方头顶飞出，暴击是放大的金字，双方血条实时下降，侧边显示所用技能，胜负落「斩」或「撤」。
+- **轻点场景收集灵气**：灵气凝聚的入口移到场景右下角。
+- **列表与详情同屏**：功法、地图、储物改为左右分栏；地图页一眼看到各区域的推荐战力与进度，点「进入探索」即转赴；
+  储物页左边是已装备的五件法器，右边是物品格子，点法器会并排对比「当前装备」与「选中物品」。
+- **新配色**：黑底、细白线、青绿选中，物品名称按品质着色。
+- 只改界面：存档、数值、玩法不变，可直接覆盖安装。
 
 ### v1.9.3 更新内容
 
@@ -136,7 +147,8 @@
 
 | 版本 | versionCode | 下载 | SHA-256 |
 |---|---|---|---|
-| **1.9.3** | **14** | [fanxiuji-v1.9.3-release.apk](releases/fanxiuji-v1.9.3-release.apk) | `be5ec4712fa7b06521164ee0c61438d5462ec469bc1697f45aaf2e8959cb050e` |
+| **2.0.0** | **15** | [fanxiuji-v2.0.0-release.apk](releases/fanxiuji-v2.0.0-release.apk) | `b8002155dcd195f557dbffb80ef09f9281b3ee864acb40099cf8d198274098f4` |
+| 1.9.3 | 14 | [fanxiuji-v1.9.3-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v1.9.3/releases/fanxiuji-v1.9.3-release.apk) | `be5ec4712fa7b06521164ee0c61438d5462ec469bc1697f45aaf2e8959cb050e` |
 | 1.9.2 | 13 | [fanxiuji-v1.9.2-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v1.9.2/releases/fanxiuji-v1.9.2-release.apk) | `49f47fffe90912a796dae628adc57a93743a012f02339d9f7d72c0431214319f` |
 | 1.9.1 | 12 | [fanxiuji-v1.9.1-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v1.9.1/releases/fanxiuji-v1.9.1-release.apk) | `a4dd8de68d7433fd882d2b608beb1876b6c65eeb9ec1935c9f0c9edca65d45e2` |
 | 1.9.0 | 11 | [fanxiuji-v1.9.0-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v1.9.0/releases/fanxiuji-v1.9.0-release.apk) | `a158a54c91c5b7fac65d7a3879f6741c72cd513026ec8f06b49be3746079fb6a` |
@@ -160,9 +172,9 @@
 
 ```bash
 # Windows PowerShell
-Get-FileHash .\fanxiuji-v1.9.3-release.apk -Algorithm SHA256
+Get-FileHash .\fanxiuji-v2.0.0-release.apk -Algorithm SHA256
 # macOS / Linux
-shasum -a 256 fanxiuji-v1.9.3-release.apk
+shasum -a 256 fanxiuji-v2.0.0-release.apk
 ```
 
 结果应与上表及 [version.json](version.json) 中的 `apkSha256` 一致。
@@ -205,12 +217,12 @@ gradlew.bat testDebugUnitTest assembleRelease --offline
 # 2. 本仓库：复制 APK、计算校验和、更新 version.json（拒绝 versionCode 未递增或覆盖同名文件）
 cd ..\fanxiuji-release
 python publish.py ..\mortal-cultivation-idle\app\build\outputs\apk\release\app-release.apk ^
-  --version-code 15 --version-name 2.0.0 --notes "新增内容A|修复问题B"
+  --version-code 16 --version-name 2.0.1 --notes "新增内容A|修复问题B"
 
 # 3. 同步修改本 README 的「下载最新版」「更新内容」「历史版本」（上一版改成标签地址），复核后提交推送
 git add -A version.json releases/ README.md
-git commit -m "release: v2.0.0"
-git tag v2.0.0
+git commit -m "release: v2.0.1"
+git tag v2.0.1
 git push origin main --tags
 ```
 
