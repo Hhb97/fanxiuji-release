@@ -1,18 +1,17 @@
 {
-  "latestVersionCode": 11,
-  "latestVersionName": "1.9.0",
+  "latestVersionCode": 12,
+  "latestVersionName": "1.9.1",
   "minSupportedVersionCode": 1,
-  "apkFileName": "fanxiuji-v1.9.0-release.apk",
-  "apkSizeBytes": 20093952,
-  "apkSha256": "a158a54c91c5b7fac65d7a3879f6741c72cd513026ec8f06b49be3746079fb6a",
-  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v1.9.0-release.apk",
+  "apkFileName": "fanxiuji-v1.9.1-release.apk",
+  "apkSizeBytes": 20110336,
+  "apkSha256": "a4dd8de68d7433fd882d2b608beb1876b6c65eeb9ec1935c9f0c9edca65d45e2",
+  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v1.9.1-release.apk",
   "releaseNotes": [
-    "界面重整：底部改为 修炼 / 历练 / 洞府 / 角色 四个页签，设置移到角色页右上角，子页面逐级返回",
-    "首页「下一步」：只告诉你现在最该做的一件事，点一下直达",
-    "新增成就与称号、功法升星（重复功法不再白白分解）、洞府灵田、每周目标、秘境每周词缀",
-    "秘境与渡劫心魔战难度重新标定；文字放大，更易读",
-    "说明：本版以 v1.7 为基础重做，v1.8 的主线续章（第四卷起）与流派锁定暂时下线；存档其余内容完整保留"
+    "历练页新增「历练实况」：画出人物小人，手持当前装备的武器挥剑，剑气与命中火花打到妖兽身上",
+    "没有战斗时自动演武陪练，遇到妖兽会按真实斗法回放技能名、伤害、连击、暴击与开场法阵",
+    "人物袍色随主修流派变化，武器形状随剑/符/环变化",
+    "历练页大地图默认折叠成一行，战力、策略、战报等数据不再被挤出首屏"
   ],
-  "publishedAt": "2026-11-12T18:26:27+08:00",
+  "publishedAt": "2026-11-13T11:22:59+08:00",
   "channel": "stable"
 }
