@@ -1,18 +1,18 @@
 {
-  "latestVersionCode": 15,
-  "latestVersionName": "2.0.0",
+  "latestVersionCode": 16,
+  "latestVersionName": "2.1.0",
   "minSupportedVersionCode": 1,
-  "apkFileName": "fanxiuji-v2.0.0-release.apk",
-  "apkSizeBytes": 20143104,
-  "apkSha256": "b8002155dcd195f557dbffb80ef09f9281b3ee864acb40099cf8d198274098f4",
-  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.0.0-release.apk",
+  "apkFileName": "fanxiuji-v2.1.0-release.apk",
+  "apkSizeBytes": 20632356,
+  "apkSha256": "b6e676ce24db4ff2abc5870d57924e3cca405219a00c2a8927ec0ecbc46b53f9",
+  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.1.0-release.apk",
   "releaseNotes": [
-    "全新主界面：上半屏是常驻修行场景，任何页签都能看到角色挂机斗法；下方 12 个页签一点直达",
-    "斗法演出：伤害数字飞出、暴击金字、双方血条、技能名，胜负落「斩 / 撤」",
-    "轻点场景即可收集灵气",
-    "功法、地图、储物改为列表与详情同屏；储物可并排对比当前装备与选中法器",
-    "新配色：黑底细线、青绿选中、名称按品质着色；存档与数值不变，可直接覆盖安装"
+    "斗法换上真立绘：修士与妖兽左右对峙，剑气飞出、命中闪白、伤害飞字、立绘下方血条，斩杀时妖兽消散",
+    "场景背景改为当前区域徽记，地图页区域信息配图",
+    "赶路时前方盘踞的妖兽以虚影提前出现",
+    "镇妖塔、秘境、节点详情、每日机缘都换上立绘",
+    "区域、节点事件、每日机缘与部分妖兽改为山海经体文案；存档与数值不变"
   ],
-  "publishedAt": "2026-11-13T12:02:35+08:00",
+  "publishedAt": "2026-11-13T13:38:52+08:00",
   "channel": "stable"
 }
