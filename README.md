@@ -4,12 +4,18 @@
 
 ## 下载最新版
 
-**[⬇ 下载 v2.4.0（约 21 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.4.0-release.apk)**
+**[⬇ 下载 v2.4.1（约 22 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.4.1-release.apk)**
 
 - 系统要求：Android 8.0（API 26）及以上
 - 首次安装需在系统设置中允许「安装未知来源应用」
 - 从旧版本升级：直接覆盖安装，存档保留（同一签名证书）
 - 游戏内「设置 › 检测更新」会自动提示新版本
+
+### v2.4.1 更新内容
+
+- **所有小怪都有了专属立绘**：赤眼妖狼、火鸦、落霞毒蛛、冰蚕、骨魔、通臂妖猿、机关傀儡、守陵石俑、虚空蜉蝣、裂隙魔、
+  星鲛、深海妖姬、守梯天将、雷兽、心魔、劫灵共 16 只换上专属形象，不再借首领立绘换色。27 只妖兽至此全部有图。
+- 存档与数值不变，可直接覆盖安装。
 
 ### v2.4.0 更新内容
 
@@ -187,7 +193,8 @@
 
 | 版本 | versionCode | 下载 | SHA-256 |
 |---|---|---|---|
-| **2.4.0** | **19** | [fanxiuji-v2.4.0-release.apk](releases/fanxiuji-v2.4.0-release.apk) | `f9568fc60c445b1fe384b400fdf021fd4c0d97953df93cabba0a57cf6cc15004` |
+| **2.4.1** | **20** | [fanxiuji-v2.4.1-release.apk](releases/fanxiuji-v2.4.1-release.apk) | `bb4e2edb68fd826f0d9c2293b1a68a322afbdb76d82e263afcc3e14bb8165045` |
+| 2.4.0 | 19 | [fanxiuji-v2.4.0-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.4.0/releases/fanxiuji-v2.4.0-release.apk) | `f9568fc60c445b1fe384b400fdf021fd4c0d97953df93cabba0a57cf6cc15004` |
 | 2.3.0 | 18 | [fanxiuji-v2.3.0-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.3.0/releases/fanxiuji-v2.3.0-release.apk) | `a8888acd29f2efddd19e6c2d17d73b8a406aa5682356025b17719b76aa1111af` |
 | 2.2.0 | 17 | [fanxiuji-v2.2.0-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.2.0/releases/fanxiuji-v2.2.0-release.apk) | `a34b6aa1426576f0415c8d7ca5a51f71e703ae083b4a37ddc99e37420c03947e` |
 | 2.1.0 | 16 | [fanxiuji-v2.1.0-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.1.0/releases/fanxiuji-v2.1.0-release.apk) | `b6e676ce24db4ff2abc5870d57924e3cca405219a00c2a8927ec0ecbc46b53f9` |
@@ -216,9 +223,9 @@
 
 ```bash
 # Windows PowerShell
-Get-FileHash .\fanxiuji-v2.4.0-release.apk -Algorithm SHA256
+Get-FileHash .\fanxiuji-v2.4.1-release.apk -Algorithm SHA256
 # macOS / Linux
-shasum -a 256 fanxiuji-v2.4.0-release.apk
+shasum -a 256 fanxiuji-v2.4.1-release.apk
 ```
 
 结果应与上表及 [version.json](version.json) 中的 `apkSha256` 一致。
@@ -261,12 +268,12 @@ gradlew.bat testDebugUnitTest assembleRelease --offline
 # 2. 本仓库：复制 APK、计算校验和、更新 version.json（拒绝 versionCode 未递增或覆盖同名文件）
 cd ..\fanxiuji-release
 python publish.py ..\mortal-cultivation-idle\app\build\outputs\apk\release\app-release.apk ^
-  --version-code 20 --version-name 2.4.1 --notes "新增内容A|修复问题B"
+  --version-code 21 --version-name 2.4.2 --notes "新增内容A|修复问题B"
 
 # 3. 同步修改本 README 的「下载最新版」「更新内容」「历史版本」（上一版改成标签地址），复核后提交推送
 git add -A version.json releases/ README.md
-git commit -m "release: v2.4.1"
-git tag v2.4.1
+git commit -m "release: v2.4.2"
+git tag v2.4.2
 git push origin main --tags
 ```
 
