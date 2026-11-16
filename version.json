@@ -1,16 +1,17 @@
 {
-  "latestVersionCode": 20,
-  "latestVersionName": "2.4.1",
+  "latestVersionCode": 21,
+  "latestVersionName": "2.5.0",
   "minSupportedVersionCode": 1,
-  "apkFileName": "fanxiuji-v2.4.1-release.apk",
-  "apkSizeBytes": 22109470,
-  "apkSha256": "bb4e2edb68fd826f0d9c2293b1a68a322afbdb76d82e263afcc3e14bb8165045",
-  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.4.1-release.apk",
+  "apkFileName": "fanxiuji-v2.5.0-release.apk",
+  "apkSizeBytes": 22125866,
+  "apkSha256": "dfab733562e87cf473b3c2a9e27e8f8113f8e2df05d1be9ae89f745907508032",
+  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.5.0-release.apk",
   "releaseNotes": [
-    "所有小怪都有了专属立绘：赤眼妖狼、火鸦、落霞毒蛛、冰蚕、骨魔、通臂妖猿、机关傀儡、守陵石俑、虚空蜉蝣、裂隙魔、星鲛、深海妖姬、守梯天将、雷兽、心魔、劫灵",
-    "27 只妖兽至此全部有图，不再借首领立绘换色",
-    "存档与数值不变，可直接覆盖安装"
+    "探图小地图就地打怪：主角跑到妖兽节点停下，妖兽立绘现身、逐回合出手扣血、胜利落斩印，打完继续赶路",
+    "未探明的妖兽巢现在直接显示小怪立绘与警戒圈，一眼看出前面有怪",
+    "斗法复用流派形态与五行配色，技能名、伤害飘字、双方血条、受击抖动全部落在地图上",
+    "修好更新检测：镜像地址带版本号绕过 CDN 缓存，主地址不通时也能拿到最新清单"
   ],
-  "publishedAt": "2026-11-13T16:47:11+08:00",
+  "publishedAt": "2026-11-16T11:10:20+08:00",
   "channel": "stable"
 }
