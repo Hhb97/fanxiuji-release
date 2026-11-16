@@ -1,17 +1,18 @@
 {
-  "latestVersionCode": 22,
-  "latestVersionName": "2.6.0",
+  "latestVersionCode": 23,
+  "latestVersionName": "2.6.1",
   "minSupportedVersionCode": 1,
-  "apkFileName": "fanxiuji-v2.6.0-release.apk",
-  "apkSizeBytes": 22142890,
-  "apkSha256": "b555d1512abdaa6d4aea3237e413f6bbc548a8f6934481f6066e3919cc8a1568",
-  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.6.0-release.apk",
+  "apkFileName": "fanxiuji-v2.6.1-release.apk",
+  "apkSizeBytes": 22142882,
+  "apkSha256": "795a6d51ce3f646a5ded040ad20a770d7246b02385f350c4cc74cab17d1335b2",
+  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.6.1-release.apk",
   "releaseNotes": [
-    "地图页上半部换成探图小地图：主角沿足迹跑图，未探明的妖兽巢直接摆出立绘与警戒圈",
-    "跑到妖兽巢停下就地开打：矢量小人挥剑、起手法阵、命中冲击，妖兽扣血倒地、斩印落在妖兽身上，打完继续赶路",
-    "应用内更新：设置 › 检测更新可直接下载 APK、校验 SHA-256 并唤起系统安装器，不再跳转浏览器",
-    "其他页签与秘境仍用常驻场景，地图页高度提升到 46% 让地图更清楚"
+    "地图重做：镜头跟着主角走，格子放大一倍多，一次看约 4×4 格，不再把 48 个图标挤在一屏",
+    "已探索的格子不再画立绘，只留一枚小印记，同屏立绘从 48 个降到 8~10 个，不再是一堆圆",
+    "地标加上石台与目标光圈，妖兽巢立绘放大并带警戒环，主角重画成有袍、腰带、持剑、发髻的小人",
+    "跑动时腿交替迈步、衣带后飘，走到蛇形折返会自动转身；迷雾改成柔和渐变，背景补远山与草丛",
+    "更新检测去掉长期滞后的 fastly 镜像，镜像只留 jsDelivr 主域"
   ],
-  "publishedAt": "2026-11-16T13:52:16+08:00",
+  "publishedAt": "2026-11-16T14:56:46+08:00",
   "channel": "stable"
 }

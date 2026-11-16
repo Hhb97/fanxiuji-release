@@ -4,12 +4,22 @@
 
 ## 下载最新版
 
-**[⬇ 下载 v2.6.0（约 22 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.6.0-release.apk)**
+**[⬇ 下载 v2.6.1（约 22 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.6.1-release.apk)**
 
 - 系统要求：Android 8.0（API 26）及以上
 - 首次安装需在系统设置中允许「安装未知来源应用」
 - 从旧版本升级：直接覆盖安装，存档保留（同一签名证书）
 - 游戏内「设置 › 检测更新」会自动提示新版本
+
+### v2.6.1 更新内容
+
+- **地图不再是一堆圆圈**：以前 48 个地标挤在一屏，每个只有 30dp，立绘缩到只剩一个彩色圆。
+  现在镜头跟着主角走，格子放大一倍多，一次显示约 4×4 格，立绘能看清是狼、是药谷还是遗府。
+- **已探索的格子不再画立绘**，只留一枚压暗的小印记（斩 / 得宝 / 撤退），同屏立绘从 48 个降到 8~10 个。
+- **地标有了石台**：光晕 + 石台 + 目标格的金色虚线圈；妖兽巢立绘放大并带脉动警戒环。
+- **主角重画**：道袍、腰带、手臂持剑、发髻与刘海，跑动时腿交替迈步、衣带后飘，
+  蛇形折返时自动转身；迷雾改成柔和渐变，背景补了两层远山与零星草丛。
+- 更新检测去掉长期滞后的 fastly 镜像，只剩 jsDelivr 主域。
 
 ### v2.6.0 更新内容
 
@@ -217,7 +227,8 @@
 
 | 版本 | versionCode | 下载 | SHA-256 |
 |---|---|---|---|
-| **2.6.0** | **22** | [fanxiuji-v2.6.0-release.apk](releases/fanxiuji-v2.6.0-release.apk) | `b555d1512abdaa6d4aea3237e413f6bbc548a8f6934481f6066e3919cc8a1568` |
+| **2.6.1** | **23** | [fanxiuji-v2.6.1-release.apk](releases/fanxiuji-v2.6.1-release.apk) | `795a6d51ce3f646a5ded040ad20a770d7246b02385f350c4cc74cab17d1335b2` |
+| 2.6.0 | 22 | [fanxiuji-v2.6.0-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.6.0/releases/fanxiuji-v2.6.0-release.apk) | `b555d1512abdaa6d4aea3237e413f6bbc548a8f6934481f6066e3919cc8a1568` |
 | 2.5.0 | 21 | [fanxiuji-v2.5.0-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.5.0/releases/fanxiuji-v2.5.0-release.apk) | `dfab733562e87cf473b3c2a9e27e8f8113f8e2df05d1be9ae89f745907508032` |
 | 2.4.1 | 20 | [fanxiuji-v2.4.1-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.4.1/releases/fanxiuji-v2.4.1-release.apk) | `bb4e2edb68fd826f0d9c2293b1a68a322afbdb76d82e263afcc3e14bb8165045` |
 | 2.4.0 | 19 | [fanxiuji-v2.4.0-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.4.0/releases/fanxiuji-v2.4.0-release.apk) | `f9568fc60c445b1fe384b400fdf021fd4c0d97953df93cabba0a57cf6cc15004` |
@@ -249,9 +260,9 @@
 
 ```bash
 # Windows PowerShell
-Get-FileHash .\fanxiuji-v2.6.0-release.apk -Algorithm SHA256
+Get-FileHash .\fanxiuji-v2.6.1-release.apk -Algorithm SHA256
 # macOS / Linux
-shasum -a 256 fanxiuji-v2.6.0-release.apk
+shasum -a 256 fanxiuji-v2.6.1-release.apk
 ```
 
 结果应与上表及 [version.json](version.json) 中的 `apkSha256` 一致。
