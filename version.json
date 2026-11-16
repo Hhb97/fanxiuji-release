@@ -1,17 +1,17 @@
 {
-  "latestVersionCode": 24,
-  "latestVersionName": "2.6.2",
+  "latestVersionCode": 25,
+  "latestVersionName": "2.7.0",
   "minSupportedVersionCode": 1,
-  "apkFileName": "fanxiuji-v2.6.2-release.apk",
-  "apkSizeBytes": 21555554,
-  "apkSha256": "83d70e4271d68cb0ce531ebf638cd1dee5121819130ef0f13ed897b2fdd9ddc4",
-  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.6.2-release.apk",
+  "apkFileName": "fanxiuji-v2.7.0-release.apk",
+  "apkSizeBytes": 22026670,
+  "apkSha256": "ae9bbac5c5f17722de267d01e78a28f36b8536a8a3dea2a2173a5e0c8ea8255d",
+  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.7.0-release.apk",
   "releaseNotes": [
-    "整套美术换成方形玉牌：27 只妖兽 / 8 种地标 / 5 个任务 / 9 个区域共 49 张重绘，全部是竖版玉牌构图",
-    "地图上每个地标都是玉牌：纯黑底板 + 类型色描边 + 四角折角，立绘不再被裁成圆",
-    "首页背景从旋转的圆形徽记改成方形山水面板，主角从圆形光罩与旋转能量环改成方形玉牌框",
-    "未探明的格子改成小方框虚线（原来是一叠灰圆，像图没加载）；斗法头像、灵气徽章、目标光圈、抵达涟漪一律方形"
+    "游戏更名《凡骨登霄》：包名与签名不变，覆盖安装直接保留存档",
+    "启动图标换成方形玉印：直角外框、青绿品红双线、中央竖剑与朱砂菱形，无圆形元素",
+    "新矢量字标随名更新；界面与设置文案同步改成新名",
+    "纯名称与图标改动，玩法、数值、存档格式均不变"
   ],
-  "publishedAt": "2026-11-16T16:56:22+08:00",
+  "publishedAt": "2026-11-16T17:22:23+08:00",
   "channel": "stable"
 }

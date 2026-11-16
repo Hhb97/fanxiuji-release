@@ -1,15 +1,25 @@
-# 凡修纪 · 安卓版下载
+# 凡骨登霄 · 安卓版下载
+
+> 原名《凡修纪》，本次更名；包名 `com.fanxiuji.idle` 与签名不变，直接覆盖安装即可保留存档。
 
 一介凡人，自青芜山麓起步的 **2D 全自动挂机修仙** 单机游戏。修炼、探索、战斗、掉落全自动，离线也有收益。
 
 ## 下载最新版
 
-**[⬇ 下载 v2.6.2（约 21 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.6.2-release.apk)**
+**[⬇ 下载 v2.7.0（约 22 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.7.0-release.apk)**
 
 - 系统要求：Android 8.0（API 26）及以上
 - 首次安装需在系统设置中允许「安装未知来源应用」
 - 从旧版本升级：直接覆盖安装，存档保留（同一签名证书）
 - 游戏内「设置 › 检测更新」会自动提示新版本
+
+### v2.7.0 更新内容
+
+- **更名《凡骨登霄》**：凡骨呼应开局五维资质的草根底子，登霄对应九重天梯到飞升台的终点。
+  包名 `com.fanxiuji.idle` 与签名证书都没变，覆盖安装直接保留存档；字标也同步换成新名。
+- **启动图标换成方形玉印**：直角内外双框、荧光青绿＋品红直线、中央竖剑、两侧折线云纹、
+  顶部朱砂菱形，刻意无圆形、无文字；缩到桌面小图标仍能认出。
+- 应用内设置与更新提示里的名称一并改新。玩法、数值、存档格式不变。
 
 ### v2.6.2 更新内容
 
@@ -237,7 +247,8 @@
 
 | 版本 | versionCode | 下载 | SHA-256 |
 |---|---|---|---|
-| **2.6.2** | **24** | [fanxiuji-v2.6.2-release.apk](releases/fanxiuji-v2.6.2-release.apk) | `83d70e4271d68cb0ce531ebf638cd1dee5121819130ef0f13ed897b2fdd9ddc4` |
+| **2.7.0** | **25** | [fanxiuji-v2.7.0-release.apk](releases/fanxiuji-v2.7.0-release.apk) | `ae9bbac5c5f17722de267d01e78a28f36b8536a8a3dea2a2173a5e0c8ea8255d` |
+| 2.6.2 | 24 | [fanxiuji-v2.6.2-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.6.2/releases/fanxiuji-v2.6.2-release.apk) | `83d70e4271d68cb0ce531ebf638cd1dee5121819130ef0f13ed897b2fdd9ddc4` |
 | 2.6.1 | 23 | [fanxiuji-v2.6.1-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.6.1/releases/fanxiuji-v2.6.1-release.apk) | `795a6d51ce3f646a5ded040ad20a770d7246b02385f350c4cc74cab17d1335b2` |
 | 2.6.0 | 22 | [fanxiuji-v2.6.0-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.6.0/releases/fanxiuji-v2.6.0-release.apk) | `b555d1512abdaa6d4aea3237e413f6bbc548a8f6934481f6066e3919cc8a1568` |
 | 2.5.0 | 21 | [fanxiuji-v2.5.0-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.5.0/releases/fanxiuji-v2.5.0-release.apk) | `dfab733562e87cf473b3c2a9e27e8f8113f8e2df05d1be9ae89f745907508032` |
@@ -271,9 +282,9 @@
 
 ```bash
 # Windows PowerShell
-Get-FileHash .\fanxiuji-v2.6.2-release.apk -Algorithm SHA256
+Get-FileHash .\fanxiuji-v2.7.0-release.apk -Algorithm SHA256
 # macOS / Linux
-shasum -a 256 fanxiuji-v2.6.2-release.apk
+shasum -a 256 fanxiuji-v2.7.0-release.apk
 ```
 
 结果应与上表及 [version.json](version.json) 中的 `apkSha256` 一致。
@@ -287,11 +298,11 @@ App 只读取本仓库的 [`version.json`](version.json)，不上传任何数据
 1. 启动时（可在设置中关闭）或手动点击「检查更新」时，按顺序请求：
    - `https://raw.githubusercontent.com/Hhb97/fanxiuji-release/main/version.json`
    - `https://cdn.jsdelivr.net/gh/Hhb97/fanxiuji-release@main/version.json`（镜像，国内网络更稳）
-   - `https://fastly.jsdelivr.net/gh/Hhb97/fanxiuji-release@main/version.json`（镜像）
 2. 用 `latestVersionCode` 与本机 versionCode 比较：
    - 更高 → 提示「发现新版本」；本机低于 `minSupportedVersionCode` → 提示「重要更新」
    - `channel` 与 App 渠道（`stable`）不一致时不提示
-3. 点击「打开下载页」交给系统浏览器下载 `downloadUrl`，由用户手动安装。
+3. 从 v2.6.0 起，点击「应用内更新」可直接在应用里下载、校验 SHA-256 并唤起系统安装器；
+   更早的版本会跳浏览器下载 `downloadUrl`。
 
 ### version.json 字段
 
