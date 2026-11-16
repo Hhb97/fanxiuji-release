@@ -1,18 +1,17 @@
 {
-  "latestVersionCode": 23,
-  "latestVersionName": "2.6.1",
+  "latestVersionCode": 24,
+  "latestVersionName": "2.6.2",
   "minSupportedVersionCode": 1,
-  "apkFileName": "fanxiuji-v2.6.1-release.apk",
-  "apkSizeBytes": 22142882,
-  "apkSha256": "795a6d51ce3f646a5ded040ad20a770d7246b02385f350c4cc74cab17d1335b2",
-  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.6.1-release.apk",
+  "apkFileName": "fanxiuji-v2.6.2-release.apk",
+  "apkSizeBytes": 21555554,
+  "apkSha256": "83d70e4271d68cb0ce531ebf638cd1dee5121819130ef0f13ed897b2fdd9ddc4",
+  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.6.2-release.apk",
   "releaseNotes": [
-    "地图重做：镜头跟着主角走，格子放大一倍多，一次看约 4×4 格，不再把 48 个图标挤在一屏",
-    "已探索的格子不再画立绘，只留一枚小印记，同屏立绘从 48 个降到 8~10 个，不再是一堆圆",
-    "地标加上石台与目标光圈，妖兽巢立绘放大并带警戒环，主角重画成有袍、腰带、持剑、发髻的小人",
-    "跑动时腿交替迈步、衣带后飘，走到蛇形折返会自动转身；迷雾改成柔和渐变，背景补远山与草丛",
-    "更新检测去掉长期滞后的 fastly 镜像，镜像只留 jsDelivr 主域"
+    "整套美术换成方形玉牌：27 只妖兽 / 8 种地标 / 5 个任务 / 9 个区域共 49 张重绘，全部是竖版玉牌构图",
+    "地图上每个地标都是玉牌：纯黑底板 + 类型色描边 + 四角折角，立绘不再被裁成圆",
+    "首页背景从旋转的圆形徽记改成方形山水面板，主角从圆形光罩与旋转能量环改成方形玉牌框",
+    "未探明的格子改成小方框虚线（原来是一叠灰圆，像图没加载）；斗法头像、灵气徽章、目标光圈、抵达涟漪一律方形"
   ],
-  "publishedAt": "2026-11-16T14:56:46+08:00",
+  "publishedAt": "2026-11-16T16:56:22+08:00",
   "channel": "stable"
 }
