@@ -4,12 +4,25 @@
 
 ## 下载最新版
 
-**[⬇ 下载 v2.5.0（约 22 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.5.0-release.apk)**
+**[⬇ 下载 v2.6.0（约 22 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.6.0-release.apk)**
 
 - 系统要求：Android 8.0（API 26）及以上
 - 首次安装需在系统设置中允许「安装未知来源应用」
 - 从旧版本升级：直接覆盖安装，存档保留（同一签名证书）
 - 游戏内「设置 › 检测更新」会自动提示新版本
+
+### v2.6.0 更新内容
+
+- **地图页上半部换成小地图了**：以前那里是一幅打坐场景，现在换成探图实况——小人沿着虚线足迹
+  一路跑，未探明的妖兽巢直接摆出小怪立绘和红色警戒圈，隔着两格就能看出前面有东西要打。
+- **就地遭遇战**：跑到妖兽巢会停下，妖兽立绘当场现身，主角一剑一剑砍过去（矢量小人、前冲、
+  挥砍、起手法阵、命中冲击、伤害飘字、双方血条），打赢妖兽淡出、斩印落在妖兽身上，然后继续赶路。
+- **应用内更新**：设置 › 检测更新不再跳浏览器。点「应用内更新」直接在应用里下载 APK、
+  校验 SHA-256，通过后唤起系统安装器。首次升级需要在系统设置里允许「安装未知应用」。
+- 其他页签与秘境仍用原来的常驻场景；地图页上半部比例从 40% 提到 46%，格子更宽松。
+
+> 从 2.5.0 升到本版这一步仍会跳浏览器（旧包里没有应用内下载的代码），
+> 从 2.6.0 起，之后的更新才走应用内下载。
 
 ### v2.5.0 更新内容
 
@@ -204,7 +217,8 @@
 
 | 版本 | versionCode | 下载 | SHA-256 |
 |---|---|---|---|
-| **2.5.0** | **21** | [fanxiuji-v2.5.0-release.apk](releases/fanxiuji-v2.5.0-release.apk) | `dfab733562e87cf473b3c2a9e27e8f8113f8e2df05d1be9ae89f745907508032` |
+| **2.6.0** | **22** | [fanxiuji-v2.6.0-release.apk](releases/fanxiuji-v2.6.0-release.apk) | `b555d1512abdaa6d4aea3237e413f6bbc548a8f6934481f6066e3919cc8a1568` |
+| 2.5.0 | 21 | [fanxiuji-v2.5.0-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.5.0/releases/fanxiuji-v2.5.0-release.apk) | `dfab733562e87cf473b3c2a9e27e8f8113f8e2df05d1be9ae89f745907508032` |
 | 2.4.1 | 20 | [fanxiuji-v2.4.1-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.4.1/releases/fanxiuji-v2.4.1-release.apk) | `bb4e2edb68fd826f0d9c2293b1a68a322afbdb76d82e263afcc3e14bb8165045` |
 | 2.4.0 | 19 | [fanxiuji-v2.4.0-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.4.0/releases/fanxiuji-v2.4.0-release.apk) | `f9568fc60c445b1fe384b400fdf021fd4c0d97953df93cabba0a57cf6cc15004` |
 | 2.3.0 | 18 | [fanxiuji-v2.3.0-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.3.0/releases/fanxiuji-v2.3.0-release.apk) | `a8888acd29f2efddd19e6c2d17d73b8a406aa5682356025b17719b76aa1111af` |
@@ -235,9 +249,9 @@
 
 ```bash
 # Windows PowerShell
-Get-FileHash .\fanxiuji-v2.5.0-release.apk -Algorithm SHA256
+Get-FileHash .\fanxiuji-v2.6.0-release.apk -Algorithm SHA256
 # macOS / Linux
-shasum -a 256 fanxiuji-v2.5.0-release.apk
+shasum -a 256 fanxiuji-v2.6.0-release.apk
 ```
 
 结果应与上表及 [version.json](version.json) 中的 `apkSha256` 一致。

@@ -1,17 +1,17 @@
 {
-  "latestVersionCode": 21,
-  "latestVersionName": "2.5.0",
+  "latestVersionCode": 22,
+  "latestVersionName": "2.6.0",
   "minSupportedVersionCode": 1,
-  "apkFileName": "fanxiuji-v2.5.0-release.apk",
-  "apkSizeBytes": 22125866,
-  "apkSha256": "dfab733562e87cf473b3c2a9e27e8f8113f8e2df05d1be9ae89f745907508032",
-  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.5.0-release.apk",
+  "apkFileName": "fanxiuji-v2.6.0-release.apk",
+  "apkSizeBytes": 22142890,
+  "apkSha256": "b555d1512abdaa6d4aea3237e413f6bbc548a8f6934481f6066e3919cc8a1568",
+  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.6.0-release.apk",
   "releaseNotes": [
-    "探图小地图就地打怪：主角跑到妖兽节点停下，妖兽立绘现身、逐回合出手扣血、胜利落斩印，打完继续赶路",
-    "未探明的妖兽巢现在直接显示小怪立绘与警戒圈，一眼看出前面有怪",
-    "斗法复用流派形态与五行配色，技能名、伤害飘字、双方血条、受击抖动全部落在地图上",
-    "修好更新检测：镜像地址带版本号绕过 CDN 缓存，主地址不通时也能拿到最新清单"
+    "地图页上半部换成探图小地图：主角沿足迹跑图，未探明的妖兽巢直接摆出立绘与警戒圈",
+    "跑到妖兽巢停下就地开打：矢量小人挥剑、起手法阵、命中冲击，妖兽扣血倒地、斩印落在妖兽身上，打完继续赶路",
+    "应用内更新：设置 › 检测更新可直接下载 APK、校验 SHA-256 并唤起系统安装器，不再跳转浏览器",
+    "其他页签与秘境仍用常驻场景，地图页高度提升到 46% 让地图更清楚"
   ],
-  "publishedAt": "2026-11-16T11:10:20+08:00",
+  "publishedAt": "2026-11-16T13:52:16+08:00",
   "channel": "stable"
 }
