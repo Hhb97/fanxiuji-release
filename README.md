@@ -6,12 +6,23 @@
 
 ## 下载最新版
 
-**[⬇ 下载 v2.7.0（约 22 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.7.0-release.apk)**
+**[⬇ 下载 v2.8.0（约 22 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.8.0-release.apk)**
 
 - 系统要求：Android 8.0（API 26）及以上
 - 首次安装需在系统设置中允许「安装未知来源应用」
 - 从旧版本升级：直接覆盖安装，存档保留（同一签名证书）
 - 游戏内「设置 › 检测更新」会自动提示新版本
+
+### v2.8.0 更新内容
+
+- **地图主人公重画了**：之前是白圆头 + 黄梯形袍 + 两根筷子腿 + 一根白棍，
+  现在是正经修仙者——发髻横簪、五官清晰、交领道袍配玉带玉佩、宽袖执剑带剑穗、
+  云靴与后飘带；跑起来双腿交替迈步、袍摆与飘带往后扬，待机时轻微呼吸。
+- **首页和历练也换成新地图探索**：以前这两个页签上半部是打坐立绘的老场景，
+  现在和地图页一样——小人沿路跑、妖兽现身就地斗法、技能与伤害落在地图上。
+  在秘境中改用秘境斗法回放演出，不再是一层暗地图加一行字。
+- **收灵气入口保留**：轻点上半部场景即可收取，右下角灵气徽章照旧显示。
+- 纯界面改动，内核、数值、存档格式不变，直接覆盖安装即可。
 
 ### v2.7.0 更新内容
 
@@ -247,7 +258,8 @@
 
 | 版本 | versionCode | 下载 | SHA-256 |
 |---|---|---|---|
-| **2.7.0** | **25** | [fanxiuji-v2.7.0-release.apk](releases/fanxiuji-v2.7.0-release.apk) | `ae9bbac5c5f17722de267d01e78a28f36b8536a8a3dea2a2173a5e0c8ea8255d` |
+| **2.8.0** | **26** | [fanxiuji-v2.8.0-release.apk](releases/fanxiuji-v2.8.0-release.apk) | `4d4e8f58cd8d62f2a328183a30e0ff0e60a53ac8c6b9820398620c9538358614` |
+| 2.7.0 | 25 | [fanxiuji-v2.7.0-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.7.0/releases/fanxiuji-v2.7.0-release.apk) | `ae9bbac5c5f17722de267d01e78a28f36b8536a8a3dea2a2173a5e0c8ea8255d` |
 | 2.6.2 | 24 | [fanxiuji-v2.6.2-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.6.2/releases/fanxiuji-v2.6.2-release.apk) | `83d70e4271d68cb0ce531ebf638cd1dee5121819130ef0f13ed897b2fdd9ddc4` |
 | 2.6.1 | 23 | [fanxiuji-v2.6.1-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.6.1/releases/fanxiuji-v2.6.1-release.apk) | `795a6d51ce3f646a5ded040ad20a770d7246b02385f350c4cc74cab17d1335b2` |
 | 2.6.0 | 22 | [fanxiuji-v2.6.0-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.6.0/releases/fanxiuji-v2.6.0-release.apk) | `b555d1512abdaa6d4aea3237e413f6bbc548a8f6934481f6066e3919cc8a1568` |
@@ -282,9 +294,9 @@
 
 ```bash
 # Windows PowerShell
-Get-FileHash .\fanxiuji-v2.7.0-release.apk -Algorithm SHA256
+Get-FileHash .\fanxiuji-v2.8.0-release.apk -Algorithm SHA256
 # macOS / Linux
-shasum -a 256 fanxiuji-v2.7.0-release.apk
+shasum -a 256 fanxiuji-v2.8.0-release.apk
 ```
 
 结果应与上表及 [version.json](version.json) 中的 `apkSha256` 一致。
