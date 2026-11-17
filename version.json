@@ -1,17 +1,17 @@
 {
-  "latestVersionCode": 26,
-  "latestVersionName": "2.8.0",
+  "latestVersionCode": 27,
+  "latestVersionName": "2.8.1",
   "minSupportedVersionCode": 1,
-  "apkFileName": "fanxiuji-v2.8.0-release.apk",
-  "apkSizeBytes": 22026670,
-  "apkSha256": "4d4e8f58cd8d62f2a328183a30e0ff0e60a53ac8c6b9820398620c9538358614",
-  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.8.0-release.apk",
+  "apkFileName": "fanxiuji-v2.8.1-release.apk",
+  "apkSizeBytes": 22166040,
+  "apkSha256": "d644f83c8f064a609a260e9a4c732b224de7fec19de8a8659f1e28e200605716",
+  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.8.1-release.apk",
   "releaseNotes": [
-    "地图主人公重绘：发髻金簪、有五官、交领道袍配玉带、执剑带剑穗、云靴与后飘带，跑动时迈步与衣袂摆动",
-    "首页与历练上半区也换成最新地图探索：小主角跑图、就地遭遇战，秘境中用秘境斗法回放演出",
-    "页面场景切换后仍可轻点收灵气，右下角灵气徽章保留",
-    "纯界面改动，内核、数值、存档格式均不变"
+    "地图主人公换成真正的美术序列帧：待机/奔跑A/奔跑B三帧透明立绘，按走路相位切换，脚底对齐锚点，跑动带起伏",
+    "Creator全身立绘接入角色创建页与角色页背景；三帧与全身立绘同一人物设定",
+    "删掉原来手画小人的圆形柔光与椭圆阴影，贴深色地图无白边",
+    "纯美术资源替换，内核、数值、存档格式均不变"
   ],
-  "publishedAt": "2026-11-16T17:36:54+08:00",
+  "publishedAt": "2026-11-17T09:09:43+08:00",
   "channel": "stable"
 }
