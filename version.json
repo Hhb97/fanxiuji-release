@@ -1,16 +1,19 @@
 {
-  "latestVersionCode": 29,
-  "latestVersionName": "2.8.3",
+  "latestVersionCode": 30,
+  "latestVersionName": "2.8.4",
   "minSupportedVersionCode": 1,
-  "apkFileName": "fanxiuji-v2.8.3-release.apk",
+  "apkFileName": "fanxiuji-v2.8.4-release.apk",
   "apkSizeBytes": 22166040,
-  "apkSha256": "21851ab35b3b9ae4c792b0938fd3b67f091c34386f475987ae3d4b057b03eb55",
-  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.8.3-release.apk",
+  "apkSha256": "acdc38aa6ae5192f018ad3ad7934baedf6305ec17dce39d6943c4b11cd653317",
+  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.8.4-release.apk",
   "releaseNotes": [
-    "全项目数据核验基线版：12份配置表、地图、装备、物品、境界、立绘覆盖全部核对通过",
-    "新增配置跨表不变量测试，锁住图鉴里程碑/装备加成/物品获得途径等易错点",
-    "玩家可见内容与2.8.2一致，纯基线固化，覆盖安装存档不变"
+    "挂机画面不再定格：静置后改为低频待机，呼吸、灵屑、云雾继续流动，久挂回来不会误以为卡死",
+    "修掉画面与进度脱节：挂机赶路、秘境推进不再被当成静置冻结（原先小人停半路、点击才瞬移）",
+    "主角形象全场景统一：属性/丹房等页签的常驻场景与心魔、镇妖塔、秘境战斗都换成同一套美术姿态，不再是打坐图靠位移假装出手",
+    "秘境接入三乘三房间画面：小人逐间推进、怪物血条可见（这块之前是从未显示过的代码）",
+    "战斗页本方血条补上残血延迟；地图遭遇战命中加震屏；服丹收益预览与实际到账一致",
+    "设置页瘦身：更新地址与调试信息收进折叠，去掉点了没反应的音效开关；下一步卡可展开全部待办"
   ],
-  "publishedAt": "2026-11-17T11:05:55+08:00",
+  "publishedAt": "2026-11-17T14:24:58+08:00",
   "channel": "stable"
 }

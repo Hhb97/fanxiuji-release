@@ -6,12 +6,27 @@
 
 ## 下载最新版
 
-**[⬇ 下载 v2.8.3（约 22 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.8.3-release.apk)**
+**[⬇ 下载 v2.8.4（约 22 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.8.4-release.apk)**
 
 - 系统要求：Android 8.0（API 26）及以上
 - 首次安装需在系统设置中允许「安装未知来源应用」
 - 从旧版本升级：直接覆盖安装，存档保留（同一签名证书）
 - 游戏内「设置 › 检测更新」会自动提示新版本
+
+### v2.8.4 更新内容
+
+- **挂机画面不再像卡死了**：原先静置 60 秒后画面会彻底定格，雾、灵屑、呼吸全停，
+  只留数字在涨。现在改成降频待机——画面一直在动，但帧回调开销只有满帧的八分之一。
+- **修掉画面与进度脱节**：挂机赶路、秘境推进原先也被当成「静置」冻结，
+  于是小人停在半路、进度却在往前走，点击才瞬移。现在这两种状态始终满帧。
+- **主角形象全场景统一**：属性、丹房这些页签的常驻场景，以及心魔、镇妖塔、秘境战斗，
+  主角都换成同一套美术姿态。原来这些地方还是打坐立绘靠位移假装出手，和首页判若两人。
+- **秘境看得见推进了**：接入三乘三房间画面，小人逐间推进、怪物血条可见
+  （这块代码一直存在，只是从未被调用过）。
+- 战斗页本方血条补上残血延迟，双方受伤反馈一致；地图遭遇战命中加了震屏；
+  服丹收益预览与实际到账一致（丹修流派原先少算抗药性）。
+- **设置页瘦身**：更新地址与调试信息收进折叠，去掉点了没反应的音效开关；
+  「下一步」卡可以展开了，不再只显示 3 件、其余看不到。
 
 ### v2.8.3 更新内容
 
@@ -282,7 +297,8 @@
 
 | 版本 | versionCode | 下载 | SHA-256 |
 |---|---|---|---|
-| **2.8.3** | **29** | [fanxiuji-v2.8.3-release.apk](releases/fanxiuji-v2.8.3-release.apk) | `21851ab35b3b9ae4c792b0938fd3b67f091c34386f475987ae3d4b057b03eb55` |
+| **2.8.4** | **30** | [fanxiuji-v2.8.4-release.apk](releases/fanxiuji-v2.8.4-release.apk) | `acdc38aa6ae5192f018ad3ad7934baedf6305ec17dce39d6943c4b11cd653317` |
+| 2.8.3 | 29 | [fanxiuji-v2.8.3-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.8.3/releases/fanxiuji-v2.8.3-release.apk) | `21851ab35b3b9ae4c792b0938fd3b67f091c34386f475987ae3d4b057b03eb55` |
 | 2.8.2 | 28 | [fanxiuji-v2.8.2-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.8.2/releases/fanxiuji-v2.8.2-release.apk) | `9a0463e4f87d45bce68f5e3564ad32b8358878939a8e599447eb948e222fc9c5` |
 | 2.8.1 | 27 | [fanxiuji-v2.8.1-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.8.1/releases/fanxiuji-v2.8.1-release.apk) | `d644f83c8f064a609a260e9a4c732b224de7fec19de8a8659f1e28e200605716` |
 | 2.8.0 | 26 | [fanxiuji-v2.8.0-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.8.0/releases/fanxiuji-v2.8.0-release.apk) | `4d4e8f58cd8d62f2a328183a30e0ff0e60a53ac8c6b9820398620c9538358614` |
@@ -321,9 +337,9 @@
 
 ```bash
 # Windows PowerShell
-Get-FileHash .\fanxiuji-v2.8.3-release.apk -Algorithm SHA256
+Get-FileHash .\fanxiuji-v2.8.4-release.apk -Algorithm SHA256
 # macOS / Linux
-shasum -a 256 fanxiuji-v2.8.3-release.apk
+shasum -a 256 fanxiuji-v2.8.4-release.apk
 ```
 
 结果应与上表及 [version.json](version.json) 中的 `apkSha256` 一致。
