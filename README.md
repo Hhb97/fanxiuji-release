@@ -6,12 +6,27 @@
 
 ## 下载最新版
 
-**[⬇ 下载 v2.8.4（约 22 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.8.4-release.apk)**
+**[⬇ 下载 v2.8.5（约 22 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.8.5-release.apk)**
 
 - 系统要求：Android 8.0（API 26）及以上
 - 首次安装需在系统设置中允许「安装未知来源应用」
 - 从旧版本升级：直接覆盖安装，存档保留（同一签名证书）
 - 游戏内「设置 › 检测更新」会自动提示新版本
+
+### v2.8.5 更新内容
+
+- **修正鸿蒙道引的修为倍率**：这本先天功法的倍率被拆成两条重复登记，
+  边际衰减后实际只剩 2.96——比次一档的太一化生经（3.1）还低，越修越亏。
+  现已合并为一条 4.18，参悟与升星的加成也不再被平方放大。
+- **两颗吃了没反应的丹药修好了**：回春露的「疗伤」在无持续伤害的战斗里等于空转，
+  涤尘丹的「重洗词缀」更是从未实现。两者改为永久提升根骨与神识。
+  「山野孤儿」出身自带的两颗回春露，终于不是废丹了。
+- **永久属性丹不再白扣**：加成已生效后再服用会提示「多服无用」，丹药保留不消耗。
+- **突破丹误点不再吃亏**：在背包里点一颗突破丹，原先会先记一层抗药性再报错，
+  导致当天真正渡劫时药效少一成。现在判定提前，不消耗也不计数。
+- **图标修正**：法器与材料里有二十张图与名字对不上——玄铁法衣显示的是罗盘、
+  冰魄寒衣是剑、灵草是晶簇、兽皮是石块。已按实际画面重新归位，
+  流光符、赤炎兽环、星尘砂、鸿蒙紫气四张重新绘制。
 
 ### v2.8.4 更新内容
 
@@ -297,7 +312,8 @@
 
 | 版本 | versionCode | 下载 | SHA-256 |
 |---|---|---|---|
-| **2.8.4** | **30** | [fanxiuji-v2.8.4-release.apk](releases/fanxiuji-v2.8.4-release.apk) | `acdc38aa6ae5192f018ad3ad7934baedf6305ec17dce39d6943c4b11cd653317` |
+| **2.8.5** | **31** | [fanxiuji-v2.8.5-release.apk](releases/fanxiuji-v2.8.5-release.apk) | `b279548d751aa1f1b2003197d30aae7a2af5c58c8049eae331abd24dc2f65e77` |
+| 2.8.4 | 30 | [fanxiuji-v2.8.4-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.8.4/releases/fanxiuji-v2.8.4-release.apk) | `acdc38aa6ae5192f018ad3ad7934baedf6305ec17dce39d6943c4b11cd653317` |
 | 2.8.3 | 29 | [fanxiuji-v2.8.3-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.8.3/releases/fanxiuji-v2.8.3-release.apk) | `21851ab35b3b9ae4c792b0938fd3b67f091c34386f475987ae3d4b057b03eb55` |
 | 2.8.2 | 28 | [fanxiuji-v2.8.2-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.8.2/releases/fanxiuji-v2.8.2-release.apk) | `9a0463e4f87d45bce68f5e3564ad32b8358878939a8e599447eb948e222fc9c5` |
 | 2.8.1 | 27 | [fanxiuji-v2.8.1-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.8.1/releases/fanxiuji-v2.8.1-release.apk) | `d644f83c8f064a609a260e9a4c732b224de7fec19de8a8659f1e28e200605716` |
@@ -337,9 +353,9 @@
 
 ```bash
 # Windows PowerShell
-Get-FileHash .\fanxiuji-v2.8.4-release.apk -Algorithm SHA256
+Get-FileHash .\fanxiuji-v2.8.5-release.apk -Algorithm SHA256
 # macOS / Linux
-shasum -a 256 fanxiuji-v2.8.4-release.apk
+shasum -a 256 fanxiuji-v2.8.5-release.apk
 ```
 
 结果应与上表及 [version.json](version.json) 中的 `apkSha256` 一致。
