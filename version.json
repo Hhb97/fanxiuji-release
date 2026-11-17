@@ -1,18 +1,16 @@
 {
-  "latestVersionCode": 28,
-  "latestVersionName": "2.8.2",
+  "latestVersionCode": 29,
+  "latestVersionName": "2.8.3",
   "minSupportedVersionCode": 1,
-  "apkFileName": "fanxiuji-v2.8.2-release.apk",
+  "apkFileName": "fanxiuji-v2.8.3-release.apk",
   "apkSizeBytes": 22166040,
-  "apkSha256": "9a0463e4f87d45bce68f5e3564ad32b8358878939a8e599447eb948e222fc9c5",
-  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.8.2-release.apk",
+  "apkSha256": "21851ab35b3b9ae4c792b0938fd3b67f091c34386f475987ae3d4b057b03eb55",
+  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.8.3-release.apk",
   "releaseNotes": [
-    "斗法主角也换成美术三帧：待机/冲刺/收势按出手相位切换，不再是手画小人",
-    "加冲刺残影：出手瞬间身后拖两道半透明影，冲上去更有力",
-    "加命中横斩剑光与冲击环：暴击更粗更亮，伤害数字更醒目",
-    "主角脚下投影改方形薄底，贴合素材自带的碎石地台",
-    "首页/地图/历练三页共用这套斗法演出，纯界面改动，内核与存档不变"
+    "全项目数据核验基线版：12份配置表、地图、装备、物品、境界、立绘覆盖全部核对通过",
+    "新增配置跨表不变量测试，锁住图鉴里程碑/装备加成/物品获得途径等易错点",
+    "玩家可见内容与2.8.2一致，纯基线固化，覆盖安装存档不变"
   ],
-  "publishedAt": "2026-11-17T10:04:24+08:00",
+  "publishedAt": "2026-11-17T11:05:55+08:00",
   "channel": "stable"
 }
