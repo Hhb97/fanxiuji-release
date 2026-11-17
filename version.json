@@ -1,17 +1,18 @@
 {
-  "latestVersionCode": 27,
-  "latestVersionName": "2.8.1",
+  "latestVersionCode": 28,
+  "latestVersionName": "2.8.2",
   "minSupportedVersionCode": 1,
-  "apkFileName": "fanxiuji-v2.8.1-release.apk",
+  "apkFileName": "fanxiuji-v2.8.2-release.apk",
   "apkSizeBytes": 22166040,
-  "apkSha256": "d644f83c8f064a609a260e9a4c732b224de7fec19de8a8659f1e28e200605716",
-  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.8.1-release.apk",
+  "apkSha256": "9a0463e4f87d45bce68f5e3564ad32b8358878939a8e599447eb948e222fc9c5",
+  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.8.2-release.apk",
   "releaseNotes": [
-    "地图主人公换成真正的美术序列帧：待机/奔跑A/奔跑B三帧透明立绘，按走路相位切换，脚底对齐锚点，跑动带起伏",
-    "Creator全身立绘接入角色创建页与角色页背景；三帧与全身立绘同一人物设定",
-    "删掉原来手画小人的圆形柔光与椭圆阴影，贴深色地图无白边",
-    "纯美术资源替换，内核、数值、存档格式均不变"
+    "斗法主角也换成美术三帧：待机/冲刺/收势按出手相位切换，不再是手画小人",
+    "加冲刺残影：出手瞬间身后拖两道半透明影，冲上去更有力",
+    "加命中横斩剑光与冲击环：暴击更粗更亮，伤害数字更醒目",
+    "主角脚下投影改方形薄底，贴合素材自带的碎石地台",
+    "首页/地图/历练三页共用这套斗法演出，纯界面改动，内核与存档不变"
   ],
-  "publishedAt": "2026-11-17T09:09:43+08:00",
+  "publishedAt": "2026-11-17T10:04:24+08:00",
   "channel": "stable"
 }
