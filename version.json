@@ -1,18 +1,16 @@
 {
-  "latestVersionCode": 31,
-  "latestVersionName": "2.8.5",
+  "latestVersionCode": 32,
+  "latestVersionName": "2.8.6",
   "minSupportedVersionCode": 1,
-  "apkFileName": "fanxiuji-v2.8.5-release.apk",
-  "apkSizeBytes": 22171332,
-  "apkSha256": "b279548d751aa1f1b2003197d30aae7a2af5c58c8049eae331abd24dc2f65e77",
-  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.8.5-release.apk",
+  "apkFileName": "fanxiuji-v2.8.6-release.apk",
+  "apkSizeBytes": 22055508,
+  "apkSha256": "4c4c17ebac9c4f47e1d16073b7d05ab04267df01a01dc25abd6f60faf9f5ce97",
+  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.8.6-release.apk",
   "releaseNotes": [
-    "修正鸿蒙道引的修为倍率：原先被重复登记拖到 2.96，比次一档的太一化生经还低，现已回到应有的 4.18",
-    "回春露与涤尘丹原先服用没有任何效果，现改为永久提升根骨与神识（山野孤儿出身自带的两颗回春露终于有用了）",
-    "永久属性丹不再白扣：加成已生效后再服用会提示，丹药保留",
-    "突破丹在背包误点不再白掉一层抗药性，渡劫时的药效完整保留",
-    "法器与材料图标修正：玄铁法衣不再显示罗盘、灵草不再是晶簇等二十张错配，流光符、赤炎兽环、星尘砂、鸿蒙紫气四张重新绘制"
+    "启动图标改为桌面圆角应用样式：深墨青底盘 + 完整玉印居中，自适应前景不再被系统圆角裁切",
+    "传统图标同步改为圆角深墨青底，48px 小尺寸下也能辨认",
+    "新增 tools/gen_launcher_icon.py 与永久源图，图标可重复生成"
   ],
-  "publishedAt": "2026-11-17T17:37:26+08:00",
+  "publishedAt": "2026-11-18T10:45:21+08:00",
   "channel": "stable"
 }
