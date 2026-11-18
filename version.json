@@ -1,16 +1,17 @@
 {
-  "latestVersionCode": 32,
-  "latestVersionName": "2.8.6",
+  "latestVersionCode": 33,
+  "latestVersionName": "2.8.7",
   "minSupportedVersionCode": 1,
-  "apkFileName": "fanxiuji-v2.8.6-release.apk",
-  "apkSizeBytes": 22055508,
-  "apkSha256": "4c4c17ebac9c4f47e1d16073b7d05ab04267df01a01dc25abd6f60faf9f5ce97",
-  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.8.6-release.apk",
+  "apkFileName": "fanxiuji-v2.8.7-release.apk",
+  "apkSizeBytes": 22055520,
+  "apkSha256": "e88a46a6807358a07121d91242ac9b6ecf72e41f94f13eb244392056b3195817",
+  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.8.7-release.apk",
   "releaseNotes": [
-    "启动图标改为桌面圆角应用样式：深墨青底盘 + 完整玉印居中，自适应前景不再被系统圆角裁切",
-    "传统图标同步改为圆角深墨青底，48px 小尺寸下也能辨认",
-    "新增 tools/gen_launcher_icon.py 与永久源图，图标可重复生成"
+    "信息页不再疯狂滚动：背包/功法/丹房等页签的场景默认收起，可一键展开看氛围，灵气入口保留",
+    "页面切换加方向感：进子页右滑、返回左滑、切页签淡入缩放",
+    "按钮和整行点击热区全面加大，补按压缩放反馈",
+    "顶部通知下移，不再遮挡角色与资源信息"
   ],
-  "publishedAt": "2026-11-18T10:45:21+08:00",
+  "publishedAt": "2026-11-18T11:37:46+08:00",
   "channel": "stable"
 }
