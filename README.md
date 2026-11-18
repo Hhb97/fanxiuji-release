@@ -6,12 +6,28 @@
 
 ## 下载最新版
 
-**[⬇ 下载 v2.8.8（约 22 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.8.8-release.apk)**
+**[⬇ 下载 v2.8.9（约 22 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.8.9-release.apk)**
 
 - 系统要求：Android 8.0（API 26）及以上
 - 首次安装需在系统设置中允许「安装未知来源应用」
 - 从旧版本升级：直接覆盖安装，存档保留（同一签名证书）
 - 游戏内「设置 › 检测更新」会自动提示新版本
+
+### v2.8.9 更新内容
+
+**数值与存档**
+- **大境界渡劫不再白扣丹**：选「御器」或「硬抗」战法时不吃突破丹加成，现在就不会再把丹白白扣掉；护道丹也不会一次渡劫被扣两颗。
+- **改修不再吞功法**：背包里有一本和当前主修相同的功法时，点「改修」会提示「已在主修」，不会平白少一本。
+- **坏档先备份再重建**：存档损坏时原档会另存为 `save.json.bad`，不再直接覆盖丢失；「存档异常」提示也不会再被新档日志冲掉。
+- **导入存档更稳**：从时间偏快的手机导来的档会把时间戳钳回当前，避免收益卡死；旧角色的战报、离线报告与斗法回放不再残留。
+- **重置更彻底**：重置数据会连同各页面情境里保存的斗法回放一起清空。
+- **技能栏自动装配**：从收获结算里参悟的新技能，会自动填入空技能栏。
+
+**交互**
+- 导出的存档文本现在可以长按选中复制，重置前的备份真的能存走了。
+- 导入存档、切换区域、分解已强化/已升星/高品质物品和最后一枚突破丹，都加了二次确认，误点不再造成损失。
+- 收获结算按唯一标识处理，队列被新掉落顶动时也不会点错物品。
+- 切换页签或返回后，背包的筛选条件与滚动位置、战报的筛选与位置都会保留。
 
 ### v2.8.8 更新内容
 
@@ -333,7 +349,8 @@
 
 | 版本 | versionCode | 下载 | SHA-256 |
 |---|---|---|---|
-| **2.8.8** | **34** | [fanxiuji-v2.8.8-release.apk](releases/fanxiuji-v2.8.8-release.apk) | `c9503a203eeda942a4ba03027dea2c4612bebbc4173549a239d98c3d115968ee` |
+| **2.8.9** | **35** | [fanxiuji-v2.8.9-release.apk](releases/fanxiuji-v2.8.9-release.apk) | `3e44a621a8f0890dc659e800754edffaa453803710149a7d3bb78b0b3dcd1e16` |
+| 2.8.8 | 34 | [fanxiuji-v2.8.8-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.8.8/releases/fanxiuji-v2.8.8-release.apk) | `c9503a203eeda942a4ba03027dea2c4612bebbc4173549a239d98c3d115968ee` |
 | 2.8.7 | 33 | [fanxiuji-v2.8.7-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.8.7/releases/fanxiuji-v2.8.7-release.apk) | `e88a46a6807358a07121d91242ac9b6ecf72e41f94f13eb244392056b3195817` |
 | 2.8.6 | 32 | [fanxiuji-v2.8.6-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.8.6/releases/fanxiuji-v2.8.6-release.apk) | `4c4c17ebac9c4f47e1d16073b7d05ab04267df01a01dc25abd6f60faf9f5ce97` |
 | 2.8.5 | 31 | [fanxiuji-v2.8.5-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.8.5/releases/fanxiuji-v2.8.5-release.apk) | `b279548d751aa1f1b2003197d30aae7a2af5c58c8049eae331abd24dc2f65e77` |
@@ -377,9 +394,9 @@
 
 ```bash
 # Windows PowerShell
-Get-FileHash .\fanxiuji-v2.8.8-release.apk -Algorithm SHA256
+Get-FileHash .\fanxiuji-v2.8.9-release.apk -Algorithm SHA256
 # macOS / Linux
-shasum -a 256 fanxiuji-v2.8.8-release.apk
+shasum -a 256 fanxiuji-v2.8.9-release.apk
 ```
 
 结果应与上表及 [version.json](version.json) 中的 `apkSha256` 一致。

@@ -1,17 +1,21 @@
 {
-  "latestVersionCode": 34,
-  "latestVersionName": "2.8.8",
+  "latestVersionCode": 35,
+  "latestVersionName": "2.8.9",
   "minSupportedVersionCode": 1,
-  "apkFileName": "fanxiuji-v2.8.8-release.apk",
+  "apkFileName": "fanxiuji-v2.8.9-release.apk",
   "apkSizeBytes": 22071904,
-  "apkSha256": "c9503a203eeda942a4ba03027dea2c4612bebbc4173549a239d98c3d115968ee",
-  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.8.8-release.apk",
+  "apkSha256": "3e44a621a8f0890dc659e800754edffaa453803710149a7d3bb78b0b3dcd1e16",
+  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.8.9-release.apk",
   "releaseNotes": [
-    "设置页新增「重置所有游戏数据」：可一键清空境界/背包/功法/丹药/道途/秘境等全部进度，从头开始",
-    "重置需手动输入「重置」二次确认，并提供先导出存档备份",
-    "重置同时重建内核内存态（PRNG/派生属性/战报/回放），避免画面残留旧数据",
-    "确认后直接回到创建角色页重新 Roll 五维"
+    "修复大境界渡劫白扣突破丹：御器/硬抗战法不再扣掉无用的突破丹",
+    "修复改修当前主修功法吞掉背包副本的问题",
+    "存档损坏先自动备份到 save.json.bad 再重建，异常提示不再丢失",
+    "导入存档会钳回未来时间戳避免收益冻结，并清空旧档回放/离线报告",
+    "重置数据会连同各页面情境回放一起清空",
+    "从收获结算参悟的技能会自动填入技能栏",
+    "导出存档文本可长按选中复制；导入存档/切换区域/分解珍贵物品均加二次确认",
+    "收获结算按唯一键处理，列表被顶动也不会点错；切页签保留滚动位置与筛选条件"
   ],
-  "publishedAt": "2026-11-18T13:05:13+08:00",
+  "publishedAt": "2026-11-18T17:48:38+08:00",
   "channel": "stable"
 }
