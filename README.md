@@ -6,12 +6,18 @@
 
 ## 下载最新版
 
-**[⬇ 下载 v2.8.7（约 22 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.8.7-release.apk)**
+**[⬇ 下载 v2.8.8（约 22 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.8.8-release.apk)**
 
 - 系统要求：Android 8.0（API 26）及以上
 - 首次安装需在系统设置中允许「安装未知来源应用」
 - 从旧版本升级：直接覆盖安装，存档保留（同一签名证书）
 - 游戏内「设置 › 检测更新」会自动提示新版本
+
+### v2.8.8 更新内容
+
+- **可以从头再来了**：设置 › 存档 最底部新增「重置所有游戏数据」——境界、修为、五维、背包、功法、丹药、道途、机缘、成就、图鉴、秘境与镇妖塔进度全部清零，确认后直接回到创建角色页重新 Roll 五维。
+- **防误触**：必须手动输入「重置」两字才会点亮确认按钮；弹窗内还能先导出当前存档 JSON 留底，重置不可逆，先留条退路。
+- **清得干净**：重置同时重建内核内存态（随机序列、派生属性、战报、离线报告、战斗回放），不会出现「存档清了画面还拿着旧数据」的残留。
 
 ### v2.8.7 更新内容
 
@@ -327,7 +333,8 @@
 
 | 版本 | versionCode | 下载 | SHA-256 |
 |---|---|---|---|
-| **2.8.7** | **33** | [fanxiuji-v2.8.7-release.apk](releases/fanxiuji-v2.8.7-release.apk) | `e88a46a6807358a07121d91242ac9b6ecf72e41f94f13eb244392056b3195817` |
+| **2.8.8** | **34** | [fanxiuji-v2.8.8-release.apk](releases/fanxiuji-v2.8.8-release.apk) | `c9503a203eeda942a4ba03027dea2c4612bebbc4173549a239d98c3d115968ee` |
+| 2.8.7 | 33 | [fanxiuji-v2.8.7-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.8.7/releases/fanxiuji-v2.8.7-release.apk) | `e88a46a6807358a07121d91242ac9b6ecf72e41f94f13eb244392056b3195817` |
 | 2.8.6 | 32 | [fanxiuji-v2.8.6-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.8.6/releases/fanxiuji-v2.8.6-release.apk) | `4c4c17ebac9c4f47e1d16073b7d05ab04267df01a01dc25abd6f60faf9f5ce97` |
 | 2.8.5 | 31 | [fanxiuji-v2.8.5-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.8.5/releases/fanxiuji-v2.8.5-release.apk) | `b279548d751aa1f1b2003197d30aae7a2af5c58c8049eae331abd24dc2f65e77` |
 | 2.8.4 | 30 | [fanxiuji-v2.8.4-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.8.4/releases/fanxiuji-v2.8.4-release.apk) | `acdc38aa6ae5192f018ad3ad7934baedf6305ec17dce39d6943c4b11cd653317` |
@@ -370,9 +377,9 @@
 
 ```bash
 # Windows PowerShell
-Get-FileHash .\fanxiuji-v2.8.7-release.apk -Algorithm SHA256
+Get-FileHash .\fanxiuji-v2.8.8-release.apk -Algorithm SHA256
 # macOS / Linux
-shasum -a 256 fanxiuji-v2.8.7-release.apk
+shasum -a 256 fanxiuji-v2.8.8-release.apk
 ```
 
 结果应与上表及 [version.json](version.json) 中的 `apkSha256` 一致。
