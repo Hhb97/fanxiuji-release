@@ -1,20 +1,17 @@
 {
-  "latestVersionCode": 36,
-  "latestVersionName": "2.9.0",
+  "latestVersionCode": 37,
+  "latestVersionName": "2.9.1",
   "minSupportedVersionCode": 1,
-  "apkFileName": "fanxiuji-v2.9.0-release.apk",
-  "apkSizeBytes": 22394707,
-  "apkSha256": "18c4bf55102cd12c314eeebfcb24040620e54d50547824afab40f2df8be28a82",
-  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.9.0-release.apk",
+  "apkFileName": "fanxiuji-v2.9.1-release.apk",
+  "apkSizeBytes": 23119799,
+  "apkSha256": "ab982ef183185331e70d3a78f4e37db8271de6340aa097a8255df39233e91801",
+  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.9.1-release.apk",
   "releaseNotes": [
-    "首屏重做：收菜主视觉+收益摘要+一键收取，其余信息收进折叠区",
-    "一键收菜：灵田/收获/灵气/机缘/周目标/成就一次结算",
-    "新增全自动模式总开关（默认关，不覆盖旧存档偏好，设置页可开）",
-    "离线与秘境结算改底部非模态横幅，不再打断挂机",
-    "通知改结构化判定，服药/装备等操作成败不再误判",
-    "数字滚动提速，界面点击更跟手",
-    "接入新主视觉与 9 枚方形图标，补充序幕/境界/区域志文案"
+    "斗法改跑掠式：主角与妖兽正常比例立绘在地图上就近跑打，撤掉弹窗舞台卡",
+    "命中特效改方形、移到角色身后，不再用圆形法阵盖住立绘",
+    "修复地图场景越界压顶栏、首屏标题被压、通知遮挡等问题",
+    "清理旧素材，安装包更轻"
   ],
-  "publishedAt": "2026-11-19T11:38:04+08:00",
+  "publishedAt": "2026-11-19T16:41:09+08:00",
   "channel": "stable"
 }

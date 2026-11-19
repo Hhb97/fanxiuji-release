@@ -6,12 +6,22 @@
 
 ## 下载最新版
 
-**[⬇ 下载 v2.9.0（约 22 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.9.0-release.apk)**
+**[⬇ 下载 v2.9.1（约 22 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.9.1-release.apk)**
 
 - 系统要求：Android 8.0（API 26）及以上
 - 首次安装需在系统设置中允许「安装未知来源应用」
 - 从旧版本升级：直接覆盖安装，存档保留（同一签名证书）
 - 游戏内「设置 › 检测更新」会自动提示新版本
+
+### v2.9.1 更新内容
+
+**战斗与交互打磨**
+- **斗法改跑掠式**：主角与妖兽统一为正常头身比的全身立绘，在地图上跑到节点旁就地开打，不再弹出遮住画面的独立舞台卡；地图与节点全程可见，挂机不断档。
+- **命中特效更清爽**：命中冲击改方形符阵并移到角色身后，去掉会盖住妖兽的蓝色圆形法阵；伤害飘字加描边放大，血条加粗带底槽，技能名走顶部小字。
+- **跑动更顺**：主角与 27 只妖兽按 6 类体型接入 idle/奔跑/出手帧，赶路与战斗形象统一。
+- **细节修复**：修掉地图场景越界压顶栏、首屏标题被压、通知挡住角色信息等问题；清理旧素材，安装包更轻。
+
+历史版本 v2.9.0 可从 [标签地址](https://github.com/Hhb97/fanxiuji-release/raw/v2.9.0/releases/fanxiuji-v2.9.0-release.apk) 下载。
 
 ### v2.9.0 更新内容
 
@@ -361,7 +371,8 @@
 
 | 版本 | versionCode | 下载 | SHA-256 |
 |---|---|---|---|
-| **2.8.9** | **35** | [fanxiuji-v2.8.9-release.apk](releases/fanxiuji-v2.8.9-release.apk) | `3e44a621a8f0890dc659e800754edffaa453803710149a7d3bb78b0b3dcd1e16` |
+| 2.9.0 | 36 | [fanxiuji-v2.9.0-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.9.0/releases/fanxiuji-v2.9.0-release.apk) | `18c4bf55102cd12c314eeebfcb24040620e54d50547824afab40f2df8be28a82` |
+| 2.8.9 | 35 | [fanxiuji-v2.8.9-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.8.9/releases/fanxiuji-v2.8.9-release.apk) | `3e44a621a8f0890dc659e800754edffaa453803710149a7d3bb78b0b3dcd1e16` |
 | 2.8.8 | 34 | [fanxiuji-v2.8.8-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.8.8/releases/fanxiuji-v2.8.8-release.apk) | `c9503a203eeda942a4ba03027dea2c4612bebbc4173549a239d98c3d115968ee` |
 | 2.8.7 | 33 | [fanxiuji-v2.8.7-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.8.7/releases/fanxiuji-v2.8.7-release.apk) | `e88a46a6807358a07121d91242ac9b6ecf72e41f94f13eb244392056b3195817` |
 | 2.8.6 | 32 | [fanxiuji-v2.8.6-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.8.6/releases/fanxiuji-v2.8.6-release.apk) | `4c4c17ebac9c4f47e1d16073b7d05ab04267df01a01dc25abd6f60faf9f5ce97` |
