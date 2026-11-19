@@ -1,17 +1,19 @@
 {
-  "latestVersionCode": 37,
-  "latestVersionName": "2.9.1",
+  "latestVersionCode": 38,
+  "latestVersionName": "2.9.2",
   "minSupportedVersionCode": 1,
-  "apkFileName": "fanxiuji-v2.9.1-release.apk",
-  "apkSizeBytes": 23119799,
-  "apkSha256": "ab982ef183185331e70d3a78f4e37db8271de6340aa097a8255df39233e91801",
-  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.9.1-release.apk",
+  "apkFileName": "fanxiuji-v2.9.2-release.apk",
+  "apkSizeBytes": 23136183,
+  "apkSha256": "29ea29b906fd31f125bcda9c5e4417cffec126583f47dc4a1216b0d7e845e739",
+  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.9.2-release.apk",
   "releaseNotes": [
-    "斗法改跑掠式：主角与妖兽正常比例立绘在地图上就近跑打，撤掉弹窗舞台卡",
-    "命中特效改方形、移到角色身后，不再用圆形法阵盖住立绘",
-    "修复地图场景越界压顶栏、首屏标题被压、通知遮挡等问题",
-    "清理旧素材，安装包更轻"
+    "储物满了不丢东西：放不下的新物品按分解价自动折成灵石",
+    "新增整理法器：同名只留一件、过时法器一键分解，操作前列出件数和灵石",
+    "镇妖塔连闯：一键最多连登 10 层，授印先选后确认并写明效果",
+    "下一步提示储物将满与洞府升阶；还有 N 件事可点开",
+    "离线不足 5 分钟只弹一条通知，离线掉落合并同名",
+    "存档与数值不变，可直接覆盖安装"
   ],
-  "publishedAt": "2026-11-19T16:41:09+08:00",
+  "publishedAt": "2026-11-19T17:06:37+08:00",
   "channel": "stable"
 }

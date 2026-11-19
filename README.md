@@ -6,12 +6,25 @@
 
 ## 下载最新版
 
-**[⬇ 下载 v2.9.1（约 22 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.9.1-release.apk)**
+**[⬇ 下载 v2.9.2（约 22 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.9.2-release.apk)**
 
 - 系统要求：Android 8.0（API 26）及以上
 - 首次安装需在系统设置中允许「安装未知来源应用」
 - 从旧版本升级：直接覆盖安装，存档保留（同一签名证书）
 - 游戏内「设置 › 检测更新」会自动提示新版本
+
+### v2.9.2 更新内容
+
+**储物不再爆仓，登塔不再磨手**
+- **储物满了不丢东西**：背包 500 格放满后，新得物品会按分解价自动折成灵石，不再凭空消失。
+- **整理法器**：储物页新增「整理法器」，同名法器只留 1 件，与已装备同名的备份、评分不如已装备的一并分解，操作前会列出件数和可得灵石。
+- **镇妖塔连闯**：战力达标时一键连续挑战，最多 10 层，遇到落败、首领授印或战力不足自动停下；授印改为先选后确认，并直接写出效果（如「掉落品质 +1 档」），从首页「去选择」进来就在页面最上方。
+- **下一步更聪明**：储物将满时提示一键整理；灵石充裕时提示洞府升阶；「还有 N 件事」可以直接点开。
+- **少打扰**：离线不足 5 分钟只弹一条通知；离线结算里同名掉落合并、按品质排序。
+- **细节**：地图底栏「轻点收取灵气」不再被灵气徽章遮住；一键收取、整理、连闯后顶栏的灵石 / 修为 / 战力会放大闪一下。
+- 存档与数值不变，可直接覆盖安装。
+
+历史版本 v2.9.1 可从 [标签地址](https://github.com/Hhb97/fanxiuji-release/raw/v2.9.1/releases/fanxiuji-v2.9.1-release.apk) 下载。
 
 ### v2.9.1 更新内容
 
@@ -371,6 +384,7 @@
 
 | 版本 | versionCode | 下载 | SHA-256 |
 |---|---|---|---|
+| 2.9.1 | 37 | [fanxiuji-v2.9.1-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.9.1/releases/fanxiuji-v2.9.1-release.apk) | `ab982ef183185331e70d3a78f4e37db8271de6340aa097a8255df39233e91801` |
 | 2.9.0 | 36 | [fanxiuji-v2.9.0-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.9.0/releases/fanxiuji-v2.9.0-release.apk) | `18c4bf55102cd12c314eeebfcb24040620e54d50547824afab40f2df8be28a82` |
 | 2.8.9 | 35 | [fanxiuji-v2.8.9-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.8.9/releases/fanxiuji-v2.8.9-release.apk) | `3e44a621a8f0890dc659e800754edffaa453803710149a7d3bb78b0b3dcd1e16` |
 | 2.8.8 | 34 | [fanxiuji-v2.8.8-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.8.8/releases/fanxiuji-v2.8.8-release.apk) | `c9503a203eeda942a4ba03027dea2c4612bebbc4173549a239d98c3d115968ee` |
