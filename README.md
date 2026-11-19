@@ -6,12 +6,23 @@
 
 ## 下载最新版
 
-**[⬇ 下载 v2.9.3（约 22 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.9.3-release.apk)**
+**[⬇ 下载 v2.9.4（约 22 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.9.4-release.apk)**
 
 - 系统要求：Android 8.0（API 26）及以上
 - 首次安装需在系统设置中允许「安装未知来源应用」
 - 从旧版本升级：直接覆盖安装，存档保留（同一签名证书）
 - 游戏内「设置 › 检测更新」会自动提示新版本
+
+### v2.9.4 更新内容
+
+**地图换上九幅山水，斗法特效重做**
+- **每个区域都有自己的风景**：青芜山麓是青山树丛与落叶，落霞谷是落日孤松与花瓣，玄冰渊是冰棱寒月与飘雪，万妖墟是残柱与余烬，上古遗府是楼阁灯火与萤光，太虚裂隙是天幕裂口与浮石，星海浮岛是星河与浮空岛，九重天梯是层层天阶与长风，飞升台是天光云海。远山、近山随跑动做视差，雾气缓缓流动。
+- **地标不再是方块**：改为圆形徽章，带柔光和落地阴影；探过的地方只留一粒淡淡光点，未探的迷雾是飘动的云团，指引目标是旋转的金色虚线圈。
+- **斗法更好看**：出手先蓄势再突进，拖出同色残影；命中瞬间妖兽整体闪白、被击退，划过一道新月剑痕，火花带重力四溅，叠加技能五行粒子；暴击是交叉双痕、金色冲击环和全屏一闪。妖兽反扑时朱红残影扑来，三道爪痕划过主角。血条更细，残血会慢慢追上；伤害数字命中时弹出。斩杀时妖兽碎成墨点散去，盖下一枚朱红方印「斩」。
+- 斗法时四周压暗、附近地标让开，视线集中在两人之间；人物放大一些。
+- 存档与数值不变，可直接覆盖安装。
+
+历史版本 v2.9.3 可从 [标签地址](https://github.com/Hhb97/fanxiuji-release/raw/v2.9.3/releases/fanxiuji-v2.9.3-release.apk) 下载。
 
 ### v2.9.3 更新内容
 
@@ -395,6 +406,7 @@
 
 | 版本 | versionCode | 下载 | SHA-256 |
 |---|---|---|---|
+| 2.9.3 | 39 | [fanxiuji-v2.9.3-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.9.3/releases/fanxiuji-v2.9.3-release.apk) | `981ae33ceb06cbc6b68eee016cc63c7e9c25863fbe6294086b42137ef01e9997` |
 | 2.9.2 | 38 | [fanxiuji-v2.9.2-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.9.2/releases/fanxiuji-v2.9.2-release.apk) | `29ea29b906fd31f125bcda9c5e4417cffec126583f47dc4a1216b0d7e845e739` |
 | 2.9.1 | 37 | [fanxiuji-v2.9.1-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.9.1/releases/fanxiuji-v2.9.1-release.apk) | `ab982ef183185331e70d3a78f4e37db8271de6340aa097a8255df39233e91801` |
 | 2.9.0 | 36 | [fanxiuji-v2.9.0-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.9.0/releases/fanxiuji-v2.9.0-release.apk) | `18c4bf55102cd12c314eeebfcb24040620e54d50547824afab40f2df8be28a82` |

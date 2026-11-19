@@ -1,17 +1,18 @@
 {
-  "latestVersionCode": 39,
-  "latestVersionName": "2.9.3",
+  "latestVersionCode": 40,
+  "latestVersionName": "2.9.4",
   "minSupportedVersionCode": 1,
-  "apkFileName": "fanxiuji-v2.9.3-release.apk",
-  "apkSizeBytes": 23136183,
-  "apkSha256": "981ae33ceb06cbc6b68eee016cc63c7e9c25863fbe6294086b42137ef01e9997",
-  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.9.3-release.apk",
+  "apkFileName": "fanxiuji-v2.9.4-release.apk",
+  "apkSizeBytes": 23152567,
+  "apkSha256": "932a848802b36059a2140caa31581d2689f5a2f4544d9c948386bb11ecd2f97a",
+  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.9.4-release.apk",
   "releaseNotes": [
-    "收获结算不再堆积：新增自动收纳（默认开），材料丹药直接入库，冗余法器、满级技能、无用功法副本直接分解",
-    "一键收取与智能处理遇到不如已装备的法器改为分解，不再塞满储物",
-    "结算页预告智能处理结果，可一键收纳旧档攒下的显而易见收获；推荐按钮跟随真实建议",
-    "可在设置中关闭自动收纳；存档与数值不变，可直接覆盖安装"
+    "九个区域各有一幅山水：青山落叶、落日孤松、冰棱飘雪、残柱余烬、楼阁萤光、裂隙浮石、星河浮岛、层层天阶、天光云海",
+    "地标改为圆形徽章，探过只留淡光点，迷雾是飘动的云团",
+    "斗法特效重做：蓄势突进与残影、命中闪白击退、新月剑痕与火花、五行粒子、暴击金环与全屏一闪",
+    "妖兽反扑爪痕，斩杀时墨点消散并盖下朱红方印「斩」",
+    "存档与数值不变，可直接覆盖安装"
   ],
-  "publishedAt": "2026-11-19T17:16:34+08:00",
+  "publishedAt": "2026-11-19T17:42:50+08:00",
   "channel": "stable"
 }
