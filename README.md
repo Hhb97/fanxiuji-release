@@ -6,12 +6,23 @@
 
 ## 下载最新版
 
-**[⬇ 下载 v2.9.2（约 22 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.9.2-release.apk)**
+**[⬇ 下载 v2.9.3（约 22 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.9.3-release.apk)**
 
 - 系统要求：Android 8.0（API 26）及以上
 - 首次安装需在系统设置中允许「安装未知来源应用」
 - 从旧版本升级：直接覆盖安装，存档保留（同一签名证书）
 - 游戏内「设置 › 检测更新」会自动提示新版本
+
+### v2.9.3 更新内容
+
+**收获结算不再堆积**
+- **自动收纳（默认开启）**：材料、丹药掉落直接入库；不如已装备的法器、已满级的技能、已拥有又用不上的功法副本直接分解。收获结算里只剩真正要你拍板的东西：更好的法器、没学过的技能、没见过的功法。实测挂机时待结算从常年 120 件降到个位数。
+- **智能处理不再塞满储物**：「一键收取」「一键智能处理」以及队列满时的自动兜底，遇到不如已装备的法器改为分解，不再收进背包。
+- **结算页更清楚**：顶部说明当前策略，并预告「一键智能处理将：装备 x · 分解 y …」；旧档里攒下的显而易见的收获可点「先收纳显而易见的 N 件」一次清掉。每张卡片高亮的按钮就是建议去向，比当前差的功法不再把「改修」标成推荐，可升星的功法直接给出「升星」。
+- 不想自动收纳可在「设置 › 自动策略」中关闭。
+- 存档与数值不变，可直接覆盖安装。
+
+历史版本 v2.9.2 可从 [标签地址](https://github.com/Hhb97/fanxiuji-release/raw/v2.9.2/releases/fanxiuji-v2.9.2-release.apk) 下载。
 
 ### v2.9.2 更新内容
 
@@ -384,6 +395,7 @@
 
 | 版本 | versionCode | 下载 | SHA-256 |
 |---|---|---|---|
+| 2.9.2 | 38 | [fanxiuji-v2.9.2-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.9.2/releases/fanxiuji-v2.9.2-release.apk) | `29ea29b906fd31f125bcda9c5e4417cffec126583f47dc4a1216b0d7e845e739` |
 | 2.9.1 | 37 | [fanxiuji-v2.9.1-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.9.1/releases/fanxiuji-v2.9.1-release.apk) | `ab982ef183185331e70d3a78f4e37db8271de6340aa097a8255df39233e91801` |
 | 2.9.0 | 36 | [fanxiuji-v2.9.0-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.9.0/releases/fanxiuji-v2.9.0-release.apk) | `18c4bf55102cd12c314eeebfcb24040620e54d50547824afab40f2df8be28a82` |
 | 2.8.9 | 35 | [fanxiuji-v2.8.9-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.8.9/releases/fanxiuji-v2.8.9-release.apk) | `3e44a621a8f0890dc659e800754edffaa453803710149a7d3bb78b0b3dcd1e16` |
