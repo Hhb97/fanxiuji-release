@@ -6,12 +6,25 @@
 
 ## 下载最新版
 
-**[⬇ 下载 v2.9.4（约 22 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.9.4-release.apk)**
+**[⬇ 下载 v2.9.5（约 22 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.9.5-release.apk)**
 
 - 系统要求：Android 8.0（API 26）及以上
 - 首次安装需在系统设置中允许「安装未知来源应用」
 - 从旧版本升级：直接覆盖安装，存档保留（同一签名证书）
 - 游戏内「设置 › 检测更新」会自动提示新版本
+
+### v2.9.5 更新内容
+
+**斗法放慢，法器丹药更丰富**
+- **斗法演得更完整**：遇敌后在原地多停 2.5 秒再继续赶路，一场遭遇战从约 2 秒延长到约 4 秒，蓄势、突进、命中、斩杀都看得清。离线收益不受影响。
+- **法器从 12 件扩到 30 件**：兵、衣、符、袋、兽环五个部位都补齐了凡品到先天六档，例如寒霜剑、龙鳞甲、五雷符、须弥袋、麒麟环、开天斧、混沌宝衣。
+- **新增三种修为丹**：培元丹（约聚气散 3 倍）、紫府灵液（8 倍）、九转还丹（40 倍），中后期服丹也有意义。
+- **配方从 8 个扩到 16 个**：道痕石、鸿蒙紫气终于有了用处，可炼九转还丹、炼虚丹、渡劫丹，锻造须弥袋、开天斧。
+- **图鉴新增两档**：收录 60 件、70 件各有新加成。
+- **凡品材料不再被分解光**：自动分解凡品材料改为每种先留 99 份，聚气散、凝元丹等基础丹方终于炼得出来。
+- 存档保留，可直接覆盖安装。
+
+历史版本 v2.9.4 可从 [标签地址](https://github.com/Hhb97/fanxiuji-release/raw/v2.9.4/releases/fanxiuji-v2.9.4-release.apk) 下载。
 
 ### v2.9.4 更新内容
 
@@ -406,6 +419,7 @@
 
 | 版本 | versionCode | 下载 | SHA-256 |
 |---|---|---|---|
+| 2.9.4 | 40 | [fanxiuji-v2.9.4-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.9.4/releases/fanxiuji-v2.9.4-release.apk) | `932a848802b36059a2140caa31581d2689f5a2f4544d9c948386bb11ecd2f97a` |
 | 2.9.3 | 39 | [fanxiuji-v2.9.3-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.9.3/releases/fanxiuji-v2.9.3-release.apk) | `981ae33ceb06cbc6b68eee016cc63c7e9c25863fbe6294086b42137ef01e9997` |
 | 2.9.2 | 38 | [fanxiuji-v2.9.2-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.9.2/releases/fanxiuji-v2.9.2-release.apk) | `29ea29b906fd31f125bcda9c5e4417cffec126583f47dc4a1216b0d7e845e739` |
 | 2.9.1 | 37 | [fanxiuji-v2.9.1-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.9.1/releases/fanxiuji-v2.9.1-release.apk) | `ab982ef183185331e70d3a78f4e37db8271de6340aa097a8255df39233e91801` |
