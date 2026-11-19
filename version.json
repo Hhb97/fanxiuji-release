@@ -1,21 +1,20 @@
 {
-  "latestVersionCode": 35,
-  "latestVersionName": "2.8.9",
+  "latestVersionCode": 36,
+  "latestVersionName": "2.9.0",
   "minSupportedVersionCode": 1,
-  "apkFileName": "fanxiuji-v2.8.9-release.apk",
-  "apkSizeBytes": 22071904,
-  "apkSha256": "3e44a621a8f0890dc659e800754edffaa453803710149a7d3bb78b0b3dcd1e16",
-  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.8.9-release.apk",
+  "apkFileName": "fanxiuji-v2.9.0-release.apk",
+  "apkSizeBytes": 22394707,
+  "apkSha256": "18c4bf55102cd12c314eeebfcb24040620e54d50547824afab40f2df8be28a82",
+  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.9.0-release.apk",
   "releaseNotes": [
-    "修复大境界渡劫白扣突破丹：御器/硬抗战法不再扣掉无用的突破丹",
-    "修复改修当前主修功法吞掉背包副本的问题",
-    "存档损坏先自动备份到 save.json.bad 再重建，异常提示不再丢失",
-    "导入存档会钳回未来时间戳避免收益冻结，并清空旧档回放/离线报告",
-    "重置数据会连同各页面情境回放一起清空",
-    "从收获结算参悟的技能会自动填入技能栏",
-    "导出存档文本可长按选中复制；导入存档/切换区域/分解珍贵物品均加二次确认",
-    "收获结算按唯一键处理，列表被顶动也不会点错；切页签保留滚动位置与筛选条件"
+    "首屏重做：收菜主视觉+收益摘要+一键收取，其余信息收进折叠区",
+    "一键收菜：灵田/收获/灵气/机缘/周目标/成就一次结算",
+    "新增全自动模式总开关（默认关，不覆盖旧存档偏好，设置页可开）",
+    "离线与秘境结算改底部非模态横幅，不再打断挂机",
+    "通知改结构化判定，服药/装备等操作成败不再误判",
+    "数字滚动提速，界面点击更跟手",
+    "接入新主视觉与 9 枚方形图标，补充序幕/境界/区域志文案"
   ],
-  "publishedAt": "2026-11-18T17:48:38+08:00",
+  "publishedAt": "2026-11-19T11:38:04+08:00",
   "channel": "stable"
 }
