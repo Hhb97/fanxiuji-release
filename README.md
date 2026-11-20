@@ -6,12 +6,20 @@
 
 ## 下载最新版
 
-**[⬇ 下载 v2.9.6（约 23 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.9.6-release.apk)**
+**[⬇ 下载 v2.9.7（约 23 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.9.7-release.apk)**
 
 - 系统要求：Android 8.0（API 26）及以上
 - 首次安装需在系统设置中允许「安装未知来源应用」
 - 从旧版本升级：直接覆盖安装，存档保留（同一签名证书）
 - 游戏内「设置 › 检测更新」会自动提示新版本
+
+### v2.9.7 更新内容
+
+- **坊市卖对的突破丹**：已经跨过的境界用的突破丹不再上架（筑基之后不再卖筑基丹）；下一道大境界要的突破丹每批必有一件。
+- **首页渡劫提醒**：大境界需要亲斩心魔时，首页最上方会提醒，写明修为已溢出几倍、突破丹备好没有，一键去渡劫——不渡劫，修为只会空转。
+- 存档与数值不变，可直接覆盖安装。
+
+历史版本 v2.9.6 可从 [标签地址](https://github.com/Hhb97/fanxiuji-release/raw/v2.9.6/releases/fanxiuji-v2.9.6-release.apk) 下载。
 
 ### v2.9.6 更新内容
 
@@ -434,6 +442,7 @@
 
 | 版本 | versionCode | 下载 | SHA-256 |
 |---|---|---|---|
+| 2.9.6 | 42 | [fanxiuji-v2.9.6-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.9.6/releases/fanxiuji-v2.9.6-release.apk) | `c11a29c06bdbfd1164e27a12a13aa8efeecc96dd82df3662884101974e6ac4ac` |
 | 2.9.5 | 41 | [fanxiuji-v2.9.5-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.9.5/releases/fanxiuji-v2.9.5-release.apk) | `b516939420692b3f190395309c222090f5086962b864061ccbab16ea0f707cd7` |
 | 2.9.4 | 40 | [fanxiuji-v2.9.4-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.9.4/releases/fanxiuji-v2.9.4-release.apk) | `932a848802b36059a2140caa31581d2689f5a2f4544d9c948386bb11ecd2f97a` |
 | 2.9.3 | 39 | [fanxiuji-v2.9.3-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.9.3/releases/fanxiuji-v2.9.3-release.apk) | `981ae33ceb06cbc6b68eee016cc63c7e9c25863fbe6294086b42137ef01e9997` |
