@@ -6,12 +6,27 @@
 
 ## 下载最新版
 
-**[⬇ 下载 v2.9.5（约 22 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.9.5-release.apk)**
+**[⬇ 下载 v2.9.6（约 23 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.9.6-release.apk)**
 
 - 系统要求：Android 8.0（API 26）及以上
 - 首次安装需在系统设置中允许「安装未知来源应用」
 - 从旧版本升级：直接覆盖安装，存档保留（同一签名证书）
 - 游戏内「设置 › 检测更新」会自动提示新版本
+
+### v2.9.6 更新内容
+
+**主线写到飞升，炼丹炼器种田更有讲究**
+- **主线九卷**：道途从 3 卷扩到 9 卷、27 个境遇，从结丹一路写到飞升台。冰渊问心、万妖统领、上古遗府、太虚之舟、星海鲛歌、九重天梯——每卷对应一个区域，目标包括登镇妖塔、斩区域首领、开炉、收图鉴、升洞府，每个境遇三选一奖励，最后一卷你可以选择飞升、留在人间，或回到青芜山麓。
+- **首页常驻主线卡**：写明故事走到哪了、当前目标与进度，没达成时一键去对应地方（去镇妖塔、去丹房、去历练……），达成后直接做出抉择。
+- **丹方要研读**：紫府灵液、九转还丹、炼虚丹、渡劫丹、流光符、须弥袋、开天斧 7 个高阶配方需要先得到并研读丹方 / 图谱（高阶区域掉落、秘境、坊市），自动收纳会替你研读。
+- **炼丹看火候**：每炉出炉判定品质，上品多出 1 枚、极品多出 2 枚；主修丹修、佩戴赤焰 / 朱雀兽环概率更高（这两件的炼制加成此前没有生效，已修复）。
+- **炼器可淬炼**：10 种材料各有灵纹（灵草「青木」、玄铁「坚铁」、雷木「雷纹」、道痕石「道痕」……），每件法器最多两种、每种 5 级，可洗去重淬。
+- **种田**：新增妖藤、道痕苔、鸿蒙紫芝；每次收获 20% 丰收翻倍。
+- **斗法里的妖兽都是自己**：27 只妖兽改用各自的立绘出战，会呼吸、前扑、受击后仰；丹药图标逐一换了颜色，突破丹带「筑 / 结 / 婴…」角标。
+- **收获结算更清爽**：没满级的技能直接参悟，不再堆在结算里。
+- 存档自动升级，可直接覆盖安装。
+
+历史版本 v2.9.5 可从 [标签地址](https://github.com/Hhb97/fanxiuji-release/raw/v2.9.5/releases/fanxiuji-v2.9.5-release.apk) 下载。
 
 ### v2.9.5 更新内容
 
@@ -419,6 +434,7 @@
 
 | 版本 | versionCode | 下载 | SHA-256 |
 |---|---|---|---|
+| 2.9.5 | 41 | [fanxiuji-v2.9.5-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.9.5/releases/fanxiuji-v2.9.5-release.apk) | `b516939420692b3f190395309c222090f5086962b864061ccbab16ea0f707cd7` |
 | 2.9.4 | 40 | [fanxiuji-v2.9.4-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.9.4/releases/fanxiuji-v2.9.4-release.apk) | `932a848802b36059a2140caa31581d2689f5a2f4544d9c948386bb11ecd2f97a` |
 | 2.9.3 | 39 | [fanxiuji-v2.9.3-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.9.3/releases/fanxiuji-v2.9.3-release.apk) | `981ae33ceb06cbc6b68eee016cc63c7e9c25863fbe6294086b42137ef01e9997` |
 | 2.9.2 | 38 | [fanxiuji-v2.9.2-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.9.2/releases/fanxiuji-v2.9.2-release.apk) | `29ea29b906fd31f125bcda9c5e4417cffec126583f47dc4a1216b0d7e845e739` |
