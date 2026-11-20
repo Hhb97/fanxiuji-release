@@ -1,17 +1,18 @@
 {
-  "latestVersionCode": 44,
-  "latestVersionName": "2.9.8",
+  "latestVersionCode": 45,
+  "latestVersionName": "2.9.9",
   "minSupportedVersionCode": 1,
-  "apkFileName": "fanxiuji-v2.9.8-release.apk",
-  "apkSizeBytes": 24281560,
-  "apkSha256": "b2d1bde000ab3a00f08bf9e33bd5c4e90750bbfd36e7e7c4d9625d9a411b4064",
-  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.9.8-release.apk",
+  "apkFileName": "fanxiuji-v2.9.9-release.apk",
+  "apkSizeBytes": 24297944,
+  "apkSha256": "c7e3bac7cb239972ce7e20aea6ae70bf34f95ec026b540f9b2f39a211f021c43",
+  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.9.9-release.apk",
   "releaseNotes": [
-    "传送阵只往同级或更高的区域送，不再把人送回青芜山麓",
-    "新增聚灵阵：耗灵石换一小时修为 ×1.5，最多蓄 4 小时",
-    "洞府升阶花费逐阶陡增，成为攒灵石的长线目标",
-    "存档兼容，可直接覆盖安装"
+    "丹房一键服丹、一键种植",
+    "整理储物会分解已生效过的永久属性丹",
+    "主线奖励不再发过期突破丹",
+    "主线开炉缺料时引导去灵田",
+    "斗法伤害数字不再挡住妖兽名字"
   ],
-  "publishedAt": "2026-11-20T13:48:31+08:00",
+  "publishedAt": "2026-11-20T13:59:52+08:00",
   "channel": "stable"
 }

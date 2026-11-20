@@ -6,12 +6,25 @@
 
 ## 下载最新版
 
-**[⬇ 下载 v2.9.8（约 23 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.9.8-release.apk)**
+**[⬇ 下载 v2.9.9（约 23 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.9.9-release.apk)**
 
 - 系统要求：Android 8.0（API 26）及以上
 - 首次安装需在系统设置中允许「安装未知来源应用」
 - 从旧版本升级：直接覆盖安装，存档保留（同一签名证书）
 - 游戏内「设置 › 检测更新」会自动提示新版本
+
+### v2.9.9 更新内容
+
+- **丹房一键服丹**：修为丹按药效从高到低服，药效跌破五成就停；限时丹没在生效时补一枚。
+- **丹房一键种植**：空着的灵田一键种上买得起的最高阶灵草，灵田不再荒着。
+- **整理储物**：原「整理法器」，现在也会分解已经生效过的永久属性丹（再服不会叠加）；收获结算也会自动分解这类丹药。
+- **主线奖励不再发过期突破丹**：已跨过的境界的突破丹，改发下一道境界要用的。
+- **主线「开炉」目标**：缺材料时按钮改为「缺料：去灵田种灵草」，直接带你去种田。
+- 首页「下一步」不再和最上方的渡劫提醒重复。
+- 斗法伤害数字从身体中间飘起，不再挡住妖兽名字；聚灵阵价格显示为整数。
+- 存档兼容，可直接覆盖安装。
+
+历史版本 v2.9.8 可从 [标签地址](https://github.com/Hhb97/fanxiuji-release/raw/v2.9.8/releases/fanxiuji-v2.9.8-release.apk) 下载。
 
 ### v2.9.8 更新内容
 
@@ -451,6 +464,7 @@
 
 | 版本 | versionCode | 下载 | SHA-256 |
 |---|---|---|---|
+| 2.9.8 | 44 | [fanxiuji-v2.9.8-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.9.8/releases/fanxiuji-v2.9.8-release.apk) | `b2d1bde000ab3a00f08bf9e33bd5c4e90750bbfd36e7e7c4d9625d9a411b4064` |
 | 2.9.7 | 43 | [fanxiuji-v2.9.7-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.9.7/releases/fanxiuji-v2.9.7-release.apk) | `0b3958ed0993c4a5665b17d807e31e9d85dcdde60495a04ab84f5957665f4bf2` |
 | 2.9.6 | 42 | [fanxiuji-v2.9.6-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.9.6/releases/fanxiuji-v2.9.6-release.apk) | `c11a29c06bdbfd1164e27a12a13aa8efeecc96dd82df3662884101974e6ac4ac` |
 | 2.9.5 | 41 | [fanxiuji-v2.9.5-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.9.5/releases/fanxiuji-v2.9.5-release.apk) | `b516939420692b3f190395309c222090f5086962b864061ccbab16ea0f707cd7` |
