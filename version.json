@@ -1,18 +1,19 @@
 {
-  "latestVersionCode": 45,
-  "latestVersionName": "2.9.9",
+  "latestVersionCode": 46,
+  "latestVersionName": "2.9.10",
   "minSupportedVersionCode": 1,
-  "apkFileName": "fanxiuji-v2.9.9-release.apk",
-  "apkSizeBytes": 24297944,
-  "apkSha256": "c7e3bac7cb239972ce7e20aea6ae70bf34f95ec026b540f9b2f39a211f021c43",
-  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.9.9-release.apk",
+  "apkFileName": "fanxiuji-v2.9.10-release.apk",
+  "apkSizeBytes": 25169876,
+  "apkSha256": "823681f0476b4f96cfbd4c4977cc9d404952fe592b117da825f68ac4393b419b",
+  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.9.10-release.apk",
   "releaseNotes": [
-    "丹房一键服丹、一键种植",
-    "整理储物会分解已生效过的永久属性丹",
-    "主线奖励不再发过期突破丹",
-    "主线开炉缺料时引导去灵田",
-    "斗法伤害数字不再挡住妖兽名字"
+    "灵田场景化美术：作物/地块立绘与进度条，不再色块加汉字",
+    "灵田自动收、自动补种与轮作地力（连种减产、换作增产）",
+    "炼丹炼器素材接入：丹炉两态、十种灵纹图标、炼器台头图、出炉光效与飞入",
+    "淬炼重洗（妖丹重分配灵纹）、点数预算与法器套装共鸣",
+    "补齐五种突破丹炼丹配方，永久属性丹纳入一键服丹",
+    "丹房首页图文化，战斗小窗斩字收敛"
   ],
-  "publishedAt": "2026-11-20T13:59:52+08:00",
+  "publishedAt": "2026-11-20T17:18:41+08:00",
   "channel": "stable"
 }
