@@ -6,12 +6,21 @@
 
 ## 下载最新版
 
-**[⬇ 下载 v2.9.7（约 23 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.9.7-release.apk)**
+**[⬇ 下载 v2.9.8（约 23 MB）](https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.9.8-release.apk)**
 
 - 系统要求：Android 8.0（API 26）及以上
 - 首次安装需在系统设置中允许「安装未知来源应用」
 - 从旧版本升级：直接覆盖安装，存档保留（同一签名证书）
 - 游戏内「设置 › 检测更新」会自动提示新版本
+
+### v2.9.8 更新内容
+
+- **传送阵不再往回送**：只会传到同级或更高、最贴近你当前境界的区域；已经在最合适的区域时原地不动（原先会把人送回青芜山麓，在低级图空转）。
+- **聚灵阵**：属性页新增，耗灵石换一小时修为 ×1.5，可续阵，最多蓄 4 小时；价格随大境界上浮。灵石富余时「下一步」会提醒开阵。
+- **洞府升阶更值钱**：升阶花费改为逐阶陡增（800 → 4000 → 2 万 → 10 万 → 50 万 → 250 万），成为攒灵石的长线目标；已升的阶数保留。
+- 存档与数值兼容，可直接覆盖安装。
+
+历史版本 v2.9.7 可从 [标签地址](https://github.com/Hhb97/fanxiuji-release/raw/v2.9.7/releases/fanxiuji-v2.9.7-release.apk) 下载。
 
 ### v2.9.7 更新内容
 
@@ -442,6 +451,7 @@
 
 | 版本 | versionCode | 下载 | SHA-256 |
 |---|---|---|---|
+| 2.9.7 | 43 | [fanxiuji-v2.9.7-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.9.7/releases/fanxiuji-v2.9.7-release.apk) | `0b3958ed0993c4a5665b17d807e31e9d85dcdde60495a04ab84f5957665f4bf2` |
 | 2.9.6 | 42 | [fanxiuji-v2.9.6-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.9.6/releases/fanxiuji-v2.9.6-release.apk) | `c11a29c06bdbfd1164e27a12a13aa8efeecc96dd82df3662884101974e6ac4ac` |
 | 2.9.5 | 41 | [fanxiuji-v2.9.5-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.9.5/releases/fanxiuji-v2.9.5-release.apk) | `b516939420692b3f190395309c222090f5086962b864061ccbab16ea0f707cd7` |
 | 2.9.4 | 40 | [fanxiuji-v2.9.4-release.apk](https://github.com/Hhb97/fanxiuji-release/raw/v2.9.4/releases/fanxiuji-v2.9.4-release.apk) | `932a848802b36059a2140caa31581d2689f5a2f4544d9c948386bb11ecd2f97a` |

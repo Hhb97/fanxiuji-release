@@ -1,16 +1,17 @@
 {
-  "latestVersionCode": 43,
-  "latestVersionName": "2.9.7",
+  "latestVersionCode": 44,
+  "latestVersionName": "2.9.8",
   "minSupportedVersionCode": 1,
-  "apkFileName": "fanxiuji-v2.9.7-release.apk",
-  "apkSizeBytes": 24281428,
-  "apkSha256": "0b3958ed0993c4a5665b17d807e31e9d85dcdde60495a04ab84f5957665f4bf2",
-  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.9.7-release.apk",
+  "apkFileName": "fanxiuji-v2.9.8-release.apk",
+  "apkSizeBytes": 24281560,
+  "apkSha256": "b2d1bde000ab3a00f08bf9e33bd5c4e90750bbfd36e7e7c4d9625d9a411b4064",
+  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.9.8-release.apk",
   "releaseNotes": [
-    "坊市不再卖已经用不上的突破丹，下一道大境界的突破丹每批必有",
-    "首页最上方显示渡劫提醒：修为溢出几倍、是否备丹、一键去渡劫",
-    "存档与数值不变，可直接覆盖安装"
+    "传送阵只往同级或更高的区域送，不再把人送回青芜山麓",
+    "新增聚灵阵：耗灵石换一小时修为 ×1.5，最多蓄 4 小时",
+    "洞府升阶花费逐阶陡增，成为攒灵石的长线目标",
+    "存档兼容，可直接覆盖安装"
   ],
-  "publishedAt": "2026-11-20T13:42:50+08:00",
+  "publishedAt": "2026-11-20T13:48:31+08:00",
   "channel": "stable"
 }
