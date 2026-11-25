@@ -1,19 +1,19 @@
 {
-  "latestVersionCode": 46,
-  "latestVersionName": "2.9.10",
+  "latestVersionCode": 47,
+  "latestVersionName": "2.9.11",
   "minSupportedVersionCode": 1,
-  "apkFileName": "fanxiuji-v2.9.10-release.apk",
-  "apkSizeBytes": 25169876,
-  "apkSha256": "823681f0476b4f96cfbd4c4977cc9d404952fe592b117da825f68ac4393b419b",
-  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.9.10-release.apk",
+  "apkFileName": "fanxiuji-v2.9.11-release.apk",
+  "apkSizeBytes": 25170020,
+  "apkSha256": "fc1212094de7d071a7577d84e4640ea4314abc821862a3caf68cfb8a3d568f2d",
+  "downloadUrl": "https://github.com/Hhb97/fanxiuji-release/raw/main/releases/fanxiuji-v2.9.11-release.apk",
   "releaseNotes": [
-    "灵田场景化美术：作物/地块立绘与进度条，不再色块加汉字",
-    "灵田自动收、自动补种与轮作地力（连种减产、换作增产）",
-    "炼丹炼器素材接入：丹炉两态、十种灵纹图标、炼器台头图、出炉光效与飞入",
-    "淬炼重洗（妖丹重分配灵纹）、点数预算与法器套装共鸣",
-    "补齐五种突破丹炼丹配方，永久属性丹纳入一键服丹",
-    "丹房首页图文化，战斗小窗斩字收敛"
+    "首屏改为唯一目标焦点：渡劫并入下一步，主线缩为一行摘要",
+    "离线结算底部新增行动建议，一键跳到该做的事",
+    "每大境界三选一发展方向（苦修/缘法/不动），下个境界重选",
+    "修服丹守卫：突破丹界面外服用不再白掉药效、永久丹不再重复扣",
+    "补齐换种轮作、统一技能上限与重洗日志双端口径",
+    "存档版本升至13，覆盖安装保留原有进度"
   ],
-  "publishedAt": "2026-11-20T17:18:41+08:00",
+  "publishedAt": "2026-11-25T13:27:46+08:00",
   "channel": "stable"
 }
